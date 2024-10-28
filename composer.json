@@ -1,8 +1,7 @@
 {
-    "name": "appto-team/telegram-bot-cast-laravel",
+    "name": "appto-team/telegram-bot-cast",
     "require": {
-        "php": "^8.2",
-        "spatie/laravel-data": "^4.10"
+        "php": "^8.2"
     },
     "autoload": {
         "psr-4": {
