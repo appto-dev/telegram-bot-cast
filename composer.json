@@ -1,0 +1,21 @@
+{
+    "name": "appto-team/telegram-bot-cast-laravel",
+    "require": {
+        "php": "^8.2",
+        "spatie/laravel-data": "^4.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\Appto\\TelegramBot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Makhlenko Sergey",
+            "email": "mahlenko-weblive@yandex.ru"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
+    }
+}
