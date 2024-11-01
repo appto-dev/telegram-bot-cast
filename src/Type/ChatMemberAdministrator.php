@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * Represents a <a href="#chatmember">chat member</a> that has some additional
  * privileges.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class ChatMemberAdministrator implements TelegramTypeInterface
 {

@@ -10,7 +10,7 @@ use Appto\TelegramBot\Type\BotCommandScope;
  * level commands</a> will be shown to affected users. Returns <em>True</em> on
  * success.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class DeleteMyCommands implements TelegramMethodInterface
 {

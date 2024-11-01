@@ -6,7 +6,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Describes why a request was unsuccessful.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class ResponseParameters implements TelegramTypeInterface
 {

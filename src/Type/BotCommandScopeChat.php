@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * Represents the <a href="#botcommandscope">scope</a> of bot commands, covering a
  * specific chat.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class BotCommandScopeChat implements TelegramTypeInterface
 {

@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * Use this method to get information about custom emoji stickers by their
  * identifiers. Returns an Array of <a href="#sticker">Sticker</a> objects.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class GetCustomEmojiStickers implements TelegramMethodInterface
 {

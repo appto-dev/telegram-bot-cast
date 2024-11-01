@@ -6,7 +6,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Describes that no specific value for the menu button was set.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class MenuButtonDefault implements TelegramTypeInterface
 {

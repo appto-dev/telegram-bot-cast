@@ -11,7 +11,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * href="#revenuewithdrawalstatesucceeded">RevenueWithdrawalStateSucceeded</a>
  *  - <a href="#revenuewithdrawalstatefailed">RevenueWithdrawalStateFailed</a>
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class RevenueWithdrawalState implements TelegramTypeInterface
 {

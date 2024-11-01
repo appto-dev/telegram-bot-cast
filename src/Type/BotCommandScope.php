@@ -16,7 +16,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * href="#botcommandscopechatadministrators">BotCommandScopeChatAdministrators</a>
  *  - <a href="#botcommandscopechatmember">BotCommandScopeChatMember</a>
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class BotCommandScope implements TelegramTypeInterface
 {

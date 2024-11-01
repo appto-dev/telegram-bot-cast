@@ -14,7 +14,7 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * href="#revokechatinvitelink">revokeChatInviteLink</a>. Returns the new invite
  * link as a <a href="#chatinvitelink">ChatInviteLink</a> object.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class CreateChatSubscriptionInviteLink implements TelegramMethodInterface
 {

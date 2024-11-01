@@ -8,7 +8,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * using multipart/form-data in the usual way that files are uploaded via the
  * browser.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class InputFile implements TelegramTypeInterface
 {

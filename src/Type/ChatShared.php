@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * This object contains information about a chat that was shared with the bot using
  * a <a href="#keyboardbuttonrequestchat">KeyboardButtonRequestChat</a> button.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class ChatShared implements TelegramTypeInterface
 {

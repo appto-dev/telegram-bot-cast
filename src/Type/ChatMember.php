@@ -13,7 +13,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  *  - <a href="#chatmemberleft">ChatMemberLeft</a>
  *  - <a href="#chatmemberbanned">ChatMemberBanned</a>
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class ChatMember implements TelegramTypeInterface
 {

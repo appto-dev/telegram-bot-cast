@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * This object contains information about the quoted part of a message that is
  * replied to by the given message.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class TextQuote implements TelegramTypeInterface
 {

@@ -10,7 +10,7 @@ use Appto\TelegramBot\Type\BotCommandScope;
  * href="/bots/features#commands">this manual</a> for more details about bot
  * commands. Returns <em>True</em> on success.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class SetMyCommands implements TelegramMethodInterface
 {

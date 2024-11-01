@@ -8,7 +8,7 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * icon by any user. Requires no parameters. Returns an Array of <a
  * href="#sticker">Sticker</a> objects.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class GetForumTopicIconStickers implements TelegramMethodInterface
 {

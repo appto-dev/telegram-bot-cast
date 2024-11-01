@@ -10,7 +10,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  *  - <a href="#messageoriginchat">MessageOriginChat</a>
  *  - <a href="#messageoriginchannel">MessageOriginChannel</a>
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class MessageOrigin implements TelegramTypeInterface
 {

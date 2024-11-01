@@ -14,7 +14,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * menu button is applied. By default, the menu button opens the list of bot
  * commands.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class MenuButton implements TelegramTypeInterface
 {

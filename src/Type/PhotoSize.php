@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * This object represents one size of a photo or a <a href="#document">file</a> /
  * <a href="#sticker">sticker</a> thumbnail.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class PhotoSize implements TelegramTypeInterface
 {

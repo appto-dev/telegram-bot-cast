@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * Refunds a successful payment in <a href="https://t.me/BotNews/90">Telegram
  * Stars</a>. Returns <em>True</em> on success.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class RefundStarPayment implements TelegramMethodInterface
 {

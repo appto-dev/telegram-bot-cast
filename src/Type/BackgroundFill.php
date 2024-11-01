@@ -10,7 +10,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  *  - <a href="#backgroundfillgradient">BackgroundFillGradient</a>
  *  - <a href="#backgroundfillfreeformgradient">BackgroundFillFreeformGradient</a>
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class BackgroundFill implements TelegramTypeInterface
 {

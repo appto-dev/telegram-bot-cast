@@ -9,7 +9,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  *  - <a href="#reactiontypecustomemoji">ReactionTypeCustomEmoji</a>
  *  - <a href="#reactiontypepaid">ReactionTypePaid</a>
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class ReactionType implements TelegramTypeInterface
 {

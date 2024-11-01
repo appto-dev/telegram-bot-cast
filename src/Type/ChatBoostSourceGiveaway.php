@@ -9,7 +9,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * Telegram Premium subscription for Telegram Premium giveaways and
  * <em>prize_star_count</em> / 500 times for one year for Telegram Star giveaways.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class ChatBoostSourceGiveaway implements TelegramTypeInterface
 {

@@ -11,7 +11,7 @@ use Appto\TelegramBot\Type\InputFile;
  * href="#replacestickerinset">replaceStickerInSet</a> methods (the file can be
  * used multiple times). Returns the uploaded <a href="#file">File</a> on success.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class UploadStickerFile implements TelegramMethodInterface
 {
