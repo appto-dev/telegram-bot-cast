@@ -9,7 +9,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * href="#determining-list-of-commands">narrower scope</a> are specified for the
  * user.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class BotCommandScopeDefault implements TelegramTypeInterface
 {

@@ -10,7 +10,7 @@ use Appto\TelegramBot\Type\ChatPermissions;
  * <em>can_restrict_members</em> administrator rights. Returns <em>True</em> on
  * success.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class SetChatPermissions implements TelegramMethodInterface
 {

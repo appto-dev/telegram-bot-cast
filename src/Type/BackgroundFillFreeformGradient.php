@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * The background is a freeform gradient that rotates after every message in the
  * chat.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class BackgroundFillFreeformGradient implements TelegramTypeInterface
 {

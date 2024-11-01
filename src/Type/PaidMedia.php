@@ -9,7 +9,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  *  - <a href="#paidmediaphoto">PaidMediaPhoto</a>
  *  - <a href="#paidmediavideo">PaidMediaVideo</a>
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class PaidMedia implements TelegramTypeInterface
 {

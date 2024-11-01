@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * Represents an issue with the front side of a document. The error is considered
  * resolved when the file with the front side of the document changes.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class PassportElementErrorFrontSide implements TelegramTypeInterface
 {

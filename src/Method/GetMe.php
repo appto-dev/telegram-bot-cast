@@ -8,7 +8,7 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * parameters. Returns basic information about the bot in form of a <a
  * href="#user">User</a> object.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class GetMe implements TelegramMethodInterface
 {

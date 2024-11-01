@@ -14,7 +14,7 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * you may use links like t.me/your_bot?start=XXXX that open your bot with a
  * parameter.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class AnswerCallbackQuery implements TelegramMethodInterface
 {

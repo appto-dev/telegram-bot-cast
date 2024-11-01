@@ -8,7 +8,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * with the bot using a <a
  * href="#keyboardbuttonrequestusers">KeyboardButtonRequestUsers</a> button.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class UsersShared implements TelegramTypeInterface
 {

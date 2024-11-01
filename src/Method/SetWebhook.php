@@ -15,7 +15,7 @@ use Appto\TelegramBot\Type\InputFile;
  * will contain a header "X-Telegram-Bot-Api-Secret-Token" with the secret token as
  * content.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class SetWebhook implements TelegramMethodInterface
 {

@@ -10,7 +10,7 @@ use Appto\TelegramBot\Type\ChatAdministratorRights;
  * suggested to users, but they are free to modify the list before adding the bot.
  * Returns <em>True</em> on success.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class SetMyDefaultAdministratorRights implements TelegramMethodInterface
 {

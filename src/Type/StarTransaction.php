@@ -6,7 +6,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Describes a Telegram Star transaction.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class StarTransaction implements TelegramTypeInterface
 {

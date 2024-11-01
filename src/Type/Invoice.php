@@ -6,7 +6,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object contains basic information about an invoice.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class Invoice implements TelegramTypeInterface
 {

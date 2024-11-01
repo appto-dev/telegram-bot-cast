@@ -12,7 +12,7 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * and their neighbors are not among them. Please note that this behavior is
  * subject to change.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class GetGameHighScores implements TelegramMethodInterface
 {

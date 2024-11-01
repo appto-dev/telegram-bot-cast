@@ -8,7 +8,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * "application/x-tgwallpattern") pattern to be combined with the background fill
  * chosen by the user.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class BackgroundTypePattern implements TelegramTypeInterface
 {

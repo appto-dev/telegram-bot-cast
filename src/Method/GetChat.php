@@ -7,7 +7,7 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * Use this method to get up-to-date information about the chat. Returns a <a
  * href="#chatfullinfo">ChatFullInfo</a> object on success.
  *
- * @version Telegram Bot API 7.10
+ * @version Telegram Bot API 7.11
  */
 final class GetChat implements TelegramMethodInterface
 {
