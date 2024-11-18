@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represent a user's profile pictures.
- *
- * @version Telegram Bot API 7.11
  */
 final class UserProfilePhotos implements TelegramTypeInterface
 {

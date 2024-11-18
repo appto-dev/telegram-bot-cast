@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Represents the <a href="#botcommandscope">scope</a> of bot commands, covering
  * all group and supergroup chat administrators.
- *
- * @version Telegram Bot API 7.11
  */
 final class BotCommandScopeAllChatAdministrators implements TelegramTypeInterface
 {

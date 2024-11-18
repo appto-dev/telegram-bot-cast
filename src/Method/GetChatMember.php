@@ -7,8 +7,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * Use this method to get information about a member of a chat. The method is only
  * guaranteed to work for other users if the bot is an administrator in the chat.
  * Returns a <a href="#chatmember">ChatMember</a> object on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class GetChatMember implements TelegramMethodInterface
 {

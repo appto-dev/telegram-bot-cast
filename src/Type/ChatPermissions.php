@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * Describes actions that a non-administrator user is allowed to take in a chat.
- *
- * @version Telegram Bot API 7.11
  */
 final class ChatPermissions implements TelegramTypeInterface
 {

@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object contains information about one answer option in a poll to be sent.
- *
- * @version Telegram Bot API 7.11
  */
 final class InputPollOption implements TelegramTypeInterface
 {

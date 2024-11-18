@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object describes a sticker to be added to a sticker set.
- *
- * @version Telegram Bot API 7.11
  */
 final class InputSticker implements TelegramTypeInterface
 {

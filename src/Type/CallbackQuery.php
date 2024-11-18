@@ -11,8 +11,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * via the bot (in <a href="#inline-mode">inline mode</a>), the field
  * <em>inline_message_id</em> will be present. Exactly one of the fields
  * <em>data</em> or <em>game_short_name</em> will be present.
- *
- * @version Telegram Bot API 7.11
  */
 final class CallbackQuery implements TelegramTypeInterface
 {

@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * The reaction is based on an emoji.
- *
- * @version Telegram Bot API 7.11
  */
 final class ReactionTypeEmoji implements TelegramTypeInterface
 {

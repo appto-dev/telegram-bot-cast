@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * Describes the opening hours of a business.
- *
- * @version Telegram Bot API 7.11
  */
 final class BusinessOpeningHours implements TelegramTypeInterface
 {

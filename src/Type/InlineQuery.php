@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object represents an incoming inline query. When the user sends an empty
  * query, your bot could return some default or trending results.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineQuery implements TelegramTypeInterface
 {

@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * optional fields must be used to specify type of the button. For simple text
  * buttons, <em>String</em> can be used instead of this object to specify the
  * button text.
- *
- * @version Telegram Bot API 7.11
  */
 final class KeyboardButton implements TelegramTypeInterface
 {

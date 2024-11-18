@@ -18,8 +18,6 @@ use Appto\TelegramBot\Type\ReplyParameters;
  * future.
  * For sending voice messages, use the <a href="#sendvoice">sendVoice</a> method
  * instead.
- *
- * @version Telegram Bot API 7.11
  */
 final class SendAudio implements TelegramMethodInterface
 {

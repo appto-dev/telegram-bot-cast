@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Contains information about the start page settings of a Telegram Business
  * account.
- *
- * @version Telegram Bot API 7.11
  */
 final class BusinessIntro implements TelegramTypeInterface
 {

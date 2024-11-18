@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents one shipping option.
- *
- * @version Telegram Bot API 7.11
  */
 final class ShippingOption implements TelegramTypeInterface
 {

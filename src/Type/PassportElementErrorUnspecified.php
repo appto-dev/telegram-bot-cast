@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Represents an issue in an unspecified place. The error is considered resolved
  * when new data is added.
- *
- * @version Telegram Bot API 7.11
  */
 final class PassportElementErrorUnspecified implements TelegramTypeInterface
 {

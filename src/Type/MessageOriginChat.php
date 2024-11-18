@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * The message was originally sent on behalf of a chat to a group chat.
- *
- * @version Telegram Bot API 7.11
  */
 final class MessageOriginChat implements TelegramTypeInterface
 {

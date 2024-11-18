@@ -11,8 +11,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * where <file_path> is taken from the response. It is guaranteed that the link
  * will be valid for at least 1 hour. When the link expires, a new one can be
  * requested by calling <a href="#getfile">getFile</a> again.
- *
- * @version Telegram Bot API 7.11
  */
 final class GetFile implements TelegramMethodInterface
 {

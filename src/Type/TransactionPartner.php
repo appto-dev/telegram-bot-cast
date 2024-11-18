@@ -11,8 +11,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  *  - <a href="#transactionpartnertelegramads">TransactionPartnerTelegramAds</a>
  *  - <a href="#transactionpartnertelegramapi">TransactionPartnerTelegramApi</a>
  *  - <a href="#transactionpartnerother">TransactionPartnerOther</a>
- *
- * @version Telegram Bot API 7.11
  */
 final class TransactionPartner implements TelegramTypeInterface
 {

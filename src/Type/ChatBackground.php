@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents a chat background.
- *
- * @version Telegram Bot API 7.11
  */
 final class ChatBackground implements TelegramTypeInterface
 {

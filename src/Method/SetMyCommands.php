@@ -9,8 +9,6 @@ use Appto\TelegramBot\Type\BotCommandScope;
  * Use this method to change the list of the bot's commands. See <a
  * href="/bots/features#commands">this manual</a> for more details about bot
  * commands. Returns <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class SetMyCommands implements TelegramMethodInterface
 {

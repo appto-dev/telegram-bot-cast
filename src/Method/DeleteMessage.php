@@ -15,8 +15,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * can delete any message there.- If the bot has <em>can_delete_messages</em>
  * permission in a supergroup or a channel, it can delete any message there.Returns
  * <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class DeleteMessage implements TelegramMethodInterface
 {

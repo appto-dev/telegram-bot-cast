@@ -11,8 +11,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  *  - <a href="#inputvenuemessagecontent">InputVenueMessageContent</a>
  *  - <a href="#inputcontactmessagecontent">InputContactMessageContent</a>
  *  - <a href="#inputinvoicemessagecontent">InputInvoiceMessageContent</a>
- *
- * @version Telegram Bot API 7.11
  */
 final class InputMessageContent implements TelegramTypeInterface
 {

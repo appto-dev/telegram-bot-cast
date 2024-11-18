@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * Describes the paid media added to a message.
- *
- * @version Telegram Bot API 7.11
  */
 final class PaidMediaInfo implements TelegramTypeInterface
 {

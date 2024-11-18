@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object represents an animation file (GIF or H.264/MPEG-4 AVC video without
  * sound).
- *
- * @version Telegram Bot API 7.11
  */
 final class Animation implements TelegramTypeInterface
 {

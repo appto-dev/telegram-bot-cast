@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * The background is filled using the selected color.
- *
- * @version Telegram Bot API 7.11
  */
 final class BackgroundFillSolid implements TelegramTypeInterface
 {

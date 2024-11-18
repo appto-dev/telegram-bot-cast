@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * with reply options (see <a href="/bots/features#keyboards">Introduction to
  * bots</a> for details and examples). Not supported in channels and for messages
  * sent on behalf of a Telegram Business account.
- *
- * @version Telegram Bot API 7.11
  */
 final class ReplyKeyboardMarkup implements TelegramTypeInterface
 {

@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object contains information about a paid media purchase.
- *
- * @version Telegram Bot API 7.11
  */
 final class PaidMediaPurchased implements TelegramTypeInterface
 {

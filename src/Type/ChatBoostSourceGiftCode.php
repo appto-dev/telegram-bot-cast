@@ -7,8 +7,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * The boost was obtained by the creation of Telegram Premium gift codes to boost a
  * chat. Each such code boosts the chat 4 times for the duration of the
  * corresponding Telegram Premium subscription.
- *
- * @version Telegram Bot API 7.11
  */
 final class ChatBoostSourceGiftCode implements TelegramTypeInterface
 {

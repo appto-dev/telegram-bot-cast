@@ -18,8 +18,6 @@ use Appto\TelegramBot\Type\ReplyParameters;
  * On success, the sent <a href="#message">Message</a> is returned. Bots can
  * currently send voice messages of up to 50 MB in size, this limit may be changed
  * in the future.
- *
- * @version Telegram Bot API 7.11
  */
 final class SendVoice implements TelegramMethodInterface
 {

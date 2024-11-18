@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * be an administrator in the chat for this to work and must have the
  * <em>can_manage_topics</em> administrator rights, unless it is the creator of the
  * topic. Returns <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class CloseForumTopic implements TelegramMethodInterface
 {

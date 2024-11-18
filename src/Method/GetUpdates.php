@@ -7,8 +7,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * Use this method to receive incoming updates using long polling (<a
  * href="https://en.wikipedia.org/wiki/Push_technology#Long_polling">wiki</a>).
  * Returns an Array of <a href="#update">Update</a> objects.
- *
- * @version Telegram Bot API 7.11
  */
 final class GetUpdates implements TelegramMethodInterface
 {

@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object contains information about an incoming pre-checkout query.
- *
- * @version Telegram Bot API 7.11
  */
 final class PreCheckoutQuery implements TelegramTypeInterface
 {

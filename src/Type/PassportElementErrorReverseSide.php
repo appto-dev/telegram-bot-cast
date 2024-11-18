@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Represents an issue with the reverse side of a document. The error is considered
  * resolved when the file with reverse side of the document changes.
- *
- * @version Telegram Bot API 7.11
  */
 final class PassportElementErrorReverseSide implements TelegramTypeInterface
 {

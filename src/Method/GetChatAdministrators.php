@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
 /**
  * Use this method to get a list of administrators in a chat, which aren't bots.
  * Returns an Array of <a href="#chatmember">ChatMember</a> objects.
- *
- * @version Telegram Bot API 7.11
  */
 final class GetChatAdministrators implements TelegramMethodInterface
 {

@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object represents a service message about a change in auto-delete timer
  * settings.
- *
- * @version Telegram Bot API 7.11
  */
 final class MessageAutoDeleteTimerChanged implements TelegramTypeInterface
 {

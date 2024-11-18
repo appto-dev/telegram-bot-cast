@@ -9,8 +9,6 @@ use Appto\TelegramBot\Type\InlineQueryResult;
  * href="/bots/webapps">Web App</a> and send a corresponding message on behalf of
  * the user to the chat from which the query originated. On success, a <a
  * href="#sentwebappmessage">SentWebAppMessage</a> object is returned.
- *
- * @version Telegram Bot API 7.11
  */
 final class AnswerWebAppQuery implements TelegramMethodInterface
 {

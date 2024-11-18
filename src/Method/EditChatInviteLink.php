@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * must be an administrator in the chat for this to work and must have the
  * appropriate administrator rights. Returns the edited invite link as a <a
  * href="#chatinvitelink">ChatInviteLink</a> object.
- *
- * @version Telegram Bot API 7.11
  */
 final class EditChatInviteLink implements TelegramMethodInterface
 {

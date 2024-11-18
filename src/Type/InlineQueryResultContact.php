@@ -7,8 +7,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * Represents a contact with a phone number. By default, this contact will be sent
  * by the user. Alternatively, you can use <em>input_message_content</em> to send a
  * message with the specified content instead of the contact.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineQueryResultContact implements TelegramTypeInterface
 {

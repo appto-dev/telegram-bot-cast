@@ -11,8 +11,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  *  - <a href="#inputmediaaudio">InputMediaAudio</a>
  *  - <a href="#inputmediaphoto">InputMediaPhoto</a>
  *  - <a href="#inputmediavideo">InputMediaVideo</a>
- *
- * @version Telegram Bot API 7.11
  */
 final class InputMedia implements TelegramTypeInterface
 {

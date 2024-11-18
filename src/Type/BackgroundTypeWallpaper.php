@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * The background is a wallpaper in the JPEG format.
- *
- * @version Telegram Bot API 7.11
  */
 final class BackgroundTypeWallpaper implements TelegramTypeInterface
 {

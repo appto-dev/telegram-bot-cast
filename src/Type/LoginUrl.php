@@ -17,8 +17,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * href="https://telegram.org/blog/privacy-discussions-web-bots#meet-seamless-web-bots">version
  * 5.7</a>.
  * Sample bot: <a href="https://t.me/discussbot">@discussbot</a>
- *
- * @version Telegram Bot API 7.11
  */
 final class LoginUrl implements TelegramTypeInterface
 {

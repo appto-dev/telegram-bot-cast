@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * giveaway. This boosts the chat 4 times for the duration of the corresponding
  * Telegram Premium subscription for Telegram Premium giveaways and
  * <em>prize_star_count</em> / 500 times for one year for Telegram Star giveaways.
- *
- * @version Telegram Bot API 7.11
  */
 final class ChatBoostSourceGiveaway implements TelegramTypeInterface
 {

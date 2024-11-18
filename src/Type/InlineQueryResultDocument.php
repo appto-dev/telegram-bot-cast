@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * an optional caption. Alternatively, you can use <em>input_message_content</em>
  * to send a message with the specified content instead of the file. Currently,
  * only .PDF and .ZIP files can be sent using this method.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineQueryResultDocument implements TelegramTypeInterface
 {

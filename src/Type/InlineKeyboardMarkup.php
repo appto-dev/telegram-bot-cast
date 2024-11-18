@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object represents an <a href="/bots/features#inline-keyboards">inline
  * keyboard</a> that appears right next to the message it belongs to.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineKeyboardMarkup implements TelegramTypeInterface
 {

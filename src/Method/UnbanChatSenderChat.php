@@ -7,8 +7,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * Use this method to unban a previously banned channel chat in a supergroup or
  * channel. The bot must be an administrator for this to work and must have the
  * appropriate administrator rights. Returns <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class UnbanChatSenderChat implements TelegramMethodInterface
 {

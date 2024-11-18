@@ -19,8 +19,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * href="#passportelementerrortranslationfiles">PassportElementErrorTranslationFiles</a>
  *  - <a
  * href="#passportelementerrorunspecified">PassportElementErrorUnspecified</a>
- *
- * @version Telegram Bot API 7.11
  */
 final class PassportElementError implements TelegramTypeInterface
 {

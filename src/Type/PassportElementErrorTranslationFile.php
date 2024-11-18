@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Represents an issue with one of the files that constitute the translation of a
  * document. The error is considered resolved when the file changes.
- *
- * @version Telegram Bot API 7.11
  */
 final class PassportElementErrorTranslationFile implements TelegramTypeInterface
 {

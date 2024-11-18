@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object represents a service message about a video chat scheduled in the
  * chat.
- *
- * @version Telegram Bot API 7.11
  */
 final class VideoChatScheduled implements TelegramTypeInterface
 {

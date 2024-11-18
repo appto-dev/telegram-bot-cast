@@ -9,8 +9,6 @@ use Appto\TelegramBot\Type\BotCommandScope;
  * user language. After deletion, <a href="#determining-list-of-commands">higher
  * level commands</a> will be shown to affected users. Returns <em>True</em> on
  * success.
- *
- * @version Telegram Bot API 7.11
  */
 final class DeleteMyCommands implements TelegramMethodInterface
 {

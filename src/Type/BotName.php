@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents the bot's name.
- *
- * @version Telegram Bot API 7.11
  */
 final class BotName implements TelegramTypeInterface
 {

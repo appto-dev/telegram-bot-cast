@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * must be an administrator in the chat for this to work and must have the
  * <em>can_manage_topics</em> administrator rights. The topic will be automatically
  * closed if it was open. Returns <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class HideGeneralForumTopic implements TelegramMethodInterface
 {

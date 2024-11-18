@@ -15,8 +15,6 @@ use Appto\TelegramBot\Type\ReplyParameters;
  * sound). On success, the sent <a href="#message">Message</a> is returned. Bots
  * can currently send animation files of up to 50 MB in size, this limit may be
  * changed in the future.
- *
- * @version Telegram Bot API 7.11
  */
 final class SendAnimation implements TelegramMethodInterface
 {

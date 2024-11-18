@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object represents a game. Use BotFather to create and edit games, their
  * short names will act as unique identifiers.
- *
- * @version Telegram Bot API 7.11
  */
 final class Game implements TelegramTypeInterface
 {

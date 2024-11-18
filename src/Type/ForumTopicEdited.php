@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents a service message about an edited forum topic.
- *
- * @version Telegram Bot API 7.11
  */
 final class ForumTopicEdited implements TelegramTypeInterface
 {

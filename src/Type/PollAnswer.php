@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents an answer of a user in a non-anonymous poll.
- *
- * @version Telegram Bot API 7.11
  */
 final class PollAnswer implements TelegramTypeInterface
 {

@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object represents one button of an inline keyboard. Exactly one of the
  * optional fields must be used to specify type of the button.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineKeyboardButton implements TelegramTypeInterface
 {

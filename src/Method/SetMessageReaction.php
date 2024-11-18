@@ -9,8 +9,6 @@ use Appto\TelegramBot\Type\ReactionType;
  * can't be reacted to. Automatically forwarded messages from a channel to its
  * discussion group have the same available reactions as messages in the channel.
  * Bots can't use paid reactions. Returns <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class SetMessageReaction implements TelegramMethodInterface
 {

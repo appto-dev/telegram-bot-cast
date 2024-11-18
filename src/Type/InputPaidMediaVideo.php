@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * The paid media to send is a video.
- *
- * @version Telegram Bot API 7.11
  */
 final class InputPaidMediaVideo implements TelegramTypeInterface
 {

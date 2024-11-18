@@ -9,8 +9,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * button is pressed. The bot will be granted requested rights in the chat if
  * appropriate. <a href="/bots/features#chat-and-user-selection">More about
  * requesting chats </a>.
- *
- * @version Telegram Bot API 7.11
  */
 final class KeyboardButtonRequestChat implements TelegramTypeInterface
 {

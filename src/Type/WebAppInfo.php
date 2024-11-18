@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * Describes a <a href="/bots/webapps">Web App</a>.
- *
- * @version Telegram Bot API 7.11
  */
 final class WebAppInfo implements TelegramTypeInterface
 {

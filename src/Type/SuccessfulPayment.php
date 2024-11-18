@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object contains basic information about a successful payment.
- *
- * @version Telegram Bot API 7.11
  */
 final class SuccessfulPayment implements TelegramTypeInterface
 {
@@ -29,6 +27,21 @@ final class SuccessfulPayment implements TelegramTypeInterface
          * @var string
          */
         public string $invoice_payload,
+        /**
+         * Expiration date of the subscription, in Unix time; for recurring payments only
+         * @var int
+         */
+        public ?int $subscription_expiration_date,
+        /**
+         * True, if the payment is a recurring payment for a subscription
+         * @var true
+         */
+        public ?true $is_recurring,
+        /**
+         * True, if the payment is the first payment for a subscription
+         * @var true
+         */
+        public ?true $is_first_recurring,
         /**
          * Identifier of the shipping option chosen by the user
          * @var string

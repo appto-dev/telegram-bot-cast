@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * will be sent by the user with optional caption. Alternatively, you can use
  * <em>input_message_content</em> to send a message with the specified content
  * instead of the animation.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineQueryResultGif implements TelegramTypeInterface
 {

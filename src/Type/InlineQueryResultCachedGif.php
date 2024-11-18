@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * default, this animated GIF file will be sent by the user with an optional
  * caption. Alternatively, you can use <em>input_message_content</em> to send a
  * message with specified content instead of the animation.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineQueryResultCachedGif implements TelegramTypeInterface
 {

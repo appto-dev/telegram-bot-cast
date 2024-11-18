@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * Describes a transaction with a user.
- *
- * @version Telegram Bot API 7.11
  */
 final class TransactionPartnerUser implements TelegramTypeInterface
 {
@@ -27,6 +25,11 @@ final class TransactionPartnerUser implements TelegramTypeInterface
          */
         public ?string $invoice_payload,
         /**
+         * The duration of the paid subscription
+         * @var int
+         */
+        public ?int $subscription_period,
+        /**
          * Information about the paid media bought by the user
          * @var PaidMedia[]
          */
@@ -36,6 +39,11 @@ final class TransactionPartnerUser implements TelegramTypeInterface
          * @var string
          */
         public ?string $paid_media_payload,
+        /**
+         * The gift sent to the user by the bot
+         * @var string
+         */
+        public ?string $gift,
     ) {
     }
 }

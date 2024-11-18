@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * Describes the options used for link preview generation.
- *
- * @version Telegram Bot API 7.11
  */
 final class LinkPreviewOptions implements TelegramTypeInterface
 {

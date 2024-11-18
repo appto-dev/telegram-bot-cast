@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object contains information about a user that was shared with the bot using
  * a <a href="#keyboardbuttonrequestusers">KeyboardButtonRequestUsers</a> button.
- *
- * @version Telegram Bot API 7.11
  */
 final class SharedUser implements TelegramTypeInterface
 {

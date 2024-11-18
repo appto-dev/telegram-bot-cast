@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * Default commands are used if no commands with a <a
  * href="#determining-list-of-commands">narrower scope</a> are specified for the
  * user.
- *
- * @version Telegram Bot API 7.11
  */
 final class BotCommandScopeDefault implements TelegramTypeInterface
 {

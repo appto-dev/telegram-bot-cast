@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * this video file will be sent by the user with an optional caption.
  * Alternatively, you can use <em>input_message_content</em> to send a message with
  * the specified content instead of the video.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineQueryResultCachedVideo implements TelegramTypeInterface
 {

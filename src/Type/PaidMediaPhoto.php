@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * The paid media is a photo.
- *
- * @version Telegram Bot API 7.11
  */
 final class PaidMediaPhoto implements TelegramTypeInterface
 {

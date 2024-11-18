@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * The bot must be an administrator in the chat for this to work and must have the
  * <em>can_pin_messages</em> administrator right in the supergroup. Returns
  * <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class UnpinAllGeneralForumTopicMessages implements TelegramMethodInterface
 {

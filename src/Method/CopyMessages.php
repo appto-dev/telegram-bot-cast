@@ -13,8 +13,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * copied messages don't have a link to the original message. Album grouping is
  * kept for copied messages. On success, an array of <a
  * href="#messageid">MessageId</a> of the sent messages is returned.
- *
- * @version Telegram Bot API 7.11
  */
 final class CopyMessages implements TelegramMethodInterface
 {

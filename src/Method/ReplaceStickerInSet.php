@@ -11,8 +11,6 @@ use Appto\TelegramBot\Type\InputSticker;
  * href="#addstickertoset">addStickerToSet</a>, then <a
  * href="#setstickerpositioninset">setStickerPositionInSet</a>. Returns
  * <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class ReplaceStickerInSet implements TelegramMethodInterface
 {

@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
 /**
  * Use this method to set a custom title for an administrator in a supergroup
  * promoted by the bot. Returns <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class SetChatAdministratorCustomTitle implements TelegramMethodInterface
 {

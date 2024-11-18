@@ -7,8 +7,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * Represents a venue. By default, the venue will be sent by the user.
  * Alternatively, you can use <em>input_message_content</em> to send a message with
  * the specified content instead of the venue.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineQueryResultVenue implements TelegramTypeInterface
 {

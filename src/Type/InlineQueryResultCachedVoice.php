@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * this voice message will be sent by the user. Alternatively, you can use
  * <em>input_message_content</em> to send a message with the specified content
  * instead of the voice message.
- *
- * @version Telegram Bot API 7.11
  */
 final class InlineQueryResultCachedVoice implements TelegramTypeInterface
 {

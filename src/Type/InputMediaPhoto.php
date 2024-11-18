@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * Represents a photo to be sent.
- *
- * @version Telegram Bot API 7.11
  */
 final class InputMediaPhoto implements TelegramTypeInterface
 {

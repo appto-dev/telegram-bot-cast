@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Describes a transaction with payment for <a href="#paid-broadcasts">paid
  * broadcasting</a>.
- *
- * @version Telegram Bot API 7.11
  */
 final class TransactionPartnerTelegramApi implements TelegramTypeInterface
 {

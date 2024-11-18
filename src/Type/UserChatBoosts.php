@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents a list of boosts added to a chat by a user.
- *
- * @version Telegram Bot API 7.11
  */
 final class UserChatBoosts implements TelegramTypeInterface
 {

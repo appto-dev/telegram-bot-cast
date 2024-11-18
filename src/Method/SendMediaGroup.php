@@ -13,8 +13,6 @@ use Appto\TelegramBot\Type\ReplyParameters;
  * album. Documents and audio files can be only grouped in an album with messages
  * of the same type. On success, an array of <a href="#message">Messages</a> that
  * were sent is returned.
- *
- * @version Telegram Bot API 7.11
  */
 final class SendMediaGroup implements TelegramMethodInterface
 {

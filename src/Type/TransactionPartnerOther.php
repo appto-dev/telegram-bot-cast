@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * Describes a transaction with an unknown source or recipient.
- *
- * @version Telegram Bot API 7.11
  */
 final class TransactionPartnerOther implements TelegramTypeInterface
 {

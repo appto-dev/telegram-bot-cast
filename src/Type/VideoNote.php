@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * href="https://telegram.org/blog/video-messages-and-telescope">video message</a>
  * (available in Telegram apps as of <a
  * href="https://telegram.org/blog/video-messages-and-telescope">v.4.0</a>).
- *
- * @version Telegram Bot API 7.11
  */
 final class VideoNote implements TelegramTypeInterface
 {

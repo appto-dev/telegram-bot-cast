@@ -8,8 +8,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * bot must be an administrator in the chat for this to work and must have the
  * appropriate administrator rights. Pass <em>False</em> for all boolean parameters
  * to demote a user. Returns <em>True</em> on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class PromoteChatMember implements TelegramMethodInterface
 {

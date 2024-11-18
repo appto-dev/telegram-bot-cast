@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Represents the <a href="#inputmessagecontent">content</a> of an invoice message
  * to be sent as the result of an inline query.
- *
- * @version Telegram Bot API 7.11
  */
 final class InputInvoiceMessageContent implements TelegramTypeInterface
 {

@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object describes a message that was deleted or is otherwise inaccessible to
  * the bot.
- *
- * @version Telegram Bot API 7.11
  */
 final class InaccessibleMessage implements TelegramTypeInterface
 {

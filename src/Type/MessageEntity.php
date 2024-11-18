@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object represents one special entity in a text message. For example,
  * hashtags, usernames, URLs, etc.
- *
- * @version Telegram Bot API 7.11
  */
 final class MessageEntity implements TelegramTypeInterface
 {

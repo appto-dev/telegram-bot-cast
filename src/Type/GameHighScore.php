@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents one row of the high scores table for a game.
- *
- * @version Telegram Bot API 7.11
  */
 final class GameHighScore implements TelegramTypeInterface
 {

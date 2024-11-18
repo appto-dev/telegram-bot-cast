@@ -9,8 +9,6 @@ use Appto\TelegramBot\Type\InlineKeyboardMarkup;
  * <em>live_period</em> expires. On success, if the message is not an inline
  * message, the edited <a href="#message">Message</a> is returned, otherwise
  * <em>True</em> is returned.
- *
- * @version Telegram Bot API 7.11
  */
 final class StopMessageLiveLocation implements TelegramMethodInterface
 {

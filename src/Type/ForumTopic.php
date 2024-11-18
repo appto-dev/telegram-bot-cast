@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents a forum topic.
- *
- * @version Telegram Bot API 7.11
  */
 final class ForumTopic implements TelegramTypeInterface
 {

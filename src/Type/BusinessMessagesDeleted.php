@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * This object is received when messages are deleted from a connected business
  * account.
- *
- * @version Telegram Bot API 7.11
  */
 final class BusinessMessagesDeleted implements TelegramTypeInterface
 {

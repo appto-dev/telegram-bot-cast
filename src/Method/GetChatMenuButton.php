@@ -7,8 +7,6 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * Use this method to get the current value of the bot's menu button in a private
  * chat, or the default menu button. Returns <a href="#menubutton">MenuButton</a>
  * on success.
- *
- * @version Telegram Bot API 7.11
  */
 final class GetChatMenuButton implements TelegramMethodInterface
 {

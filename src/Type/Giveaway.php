@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object represents a message about a scheduled giveaway.
- *
- * @version Telegram Bot API 7.11
  */
 final class Giveaway implements TelegramTypeInterface
 {

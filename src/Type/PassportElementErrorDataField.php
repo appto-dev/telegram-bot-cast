@@ -6,8 +6,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 /**
  * Represents an issue in one of the data fields that was provided by the user. The
  * error is considered resolved when the field's value changes.
- *
- * @version Telegram Bot API 7.11
  */
 final class PassportElementErrorDataField implements TelegramTypeInterface
 {

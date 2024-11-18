@@ -10,8 +10,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * user-friendly step-by-step interfaces without having to sacrifice <a
  * href="/bots/features#privacy-mode">privacy mode</a>. Not supported in channels
  * and for messages sent on behalf of a Telegram Business account.
- *
- * @version Telegram Bot API 7.11
  */
 final class ForceReply implements TelegramTypeInterface
 {

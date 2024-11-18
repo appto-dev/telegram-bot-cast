@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * The withdrawal succeeded.
- *
- * @version Telegram Bot API 7.11
  */
 final class RevenueWithdrawalStateSucceeded implements TelegramTypeInterface
 {

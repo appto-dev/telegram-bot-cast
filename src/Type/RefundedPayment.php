@@ -5,8 +5,6 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
  * This object contains basic information about a refunded payment.
- *
- * @version Telegram Bot API 7.11
  */
 final class RefundedPayment implements TelegramTypeInterface
 {
