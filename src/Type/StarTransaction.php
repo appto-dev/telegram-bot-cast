@@ -18,10 +18,16 @@ final class StarTransaction implements TelegramTypeInterface
          */
         public string $id,
         /**
-         * Number of Telegram Stars transferred by the transaction
+         * Integer amount of Telegram Stars transferred by the transaction
          * @var int
          */
         public int $amount,
+        /**
+         * The number of 1/1000000000 shares of Telegram Stars transferred by the
+         * transaction; from 0 to 999999999
+         * @var int
+         */
+        public ?int $nanostar_amount,
         /**
          * Date the transaction was created in Unix time
          * @var int

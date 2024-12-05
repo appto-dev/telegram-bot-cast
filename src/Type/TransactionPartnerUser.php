@@ -20,6 +20,11 @@ final class TransactionPartnerUser implements TelegramTypeInterface
          */
         public User $user,
         /**
+         * Information about the affiliate that received a commission via this transaction
+         * @var AffiliateInfo
+         */
+        public ?AffiliateInfo $affiliate,
+        /**
          * Bot-specified invoice payload
          * @var string
          */
@@ -41,9 +46,9 @@ final class TransactionPartnerUser implements TelegramTypeInterface
         public ?string $paid_media_payload,
         /**
          * The gift sent to the user by the bot
-         * @var string
+         * @var Gift
          */
-        public ?string $gift,
+        public ?Gift $gift,
     ) {
     }
 }

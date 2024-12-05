@@ -13,7 +13,8 @@ final class CreateInvoiceLink implements TelegramMethodInterface
     public function __construct(
         /**
          * Unique identifier of the business connection on behalf of which the link will be
-         * created
+         * created. For payments in <a href="https://t.me/BotNews/90">Telegram Stars</a>
+         * only.
          * @var string
          */
         public ?string $business_connection_id,
@@ -57,7 +58,10 @@ final class CreateInvoiceLink implements TelegramMethodInterface
         /**
          * The number of seconds the subscription will be active for before the next
          * payment. The currency must be set to "XTR" (Telegram Stars) if the parameter is
-         * used. Currently, it must always be 2592000 (30 days) if specified.
+         * used. Currently, it must always be 2592000 (30 days) if specified. Any number of
+         * subscriptions can be active for a given bot at the same time, including multiple
+         * concurrent subscriptions from the same user. Subscription price must no exceed
+         * 2500 Telegram Stars.
          * @var int
          */
         public ?int $subscription_period,
