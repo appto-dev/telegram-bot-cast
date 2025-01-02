@@ -4,7 +4,7 @@ namespace Appto\TelegramBot\Type;
 use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
- * The background is a PNG or TGV (gzipped subset of SVG with MIME type
+ * The background is a .PNG or .TGV (gzipped subset of SVG with MIME type
  * "application/x-tgwallpattern") pattern to be combined with the background fill
  * chosen by the user.
  */

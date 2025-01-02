@@ -18,7 +18,7 @@ final class InlineQueryResultGif implements TelegramTypeInterface
          */
         public string $id,
         /**
-         * A valid URL for the GIF file. File size must not exceed 1MB
+         * A valid URL for the GIF file
          * @var string
          */
         public string $gif_url,

@@ -35,11 +35,6 @@ final class InlineQueryResultArticle implements TelegramTypeInterface
          */
         public ?string $url,
         /**
-         * Pass True if you don't want the URL to be shown in the message
-         * @var bool
-         */
-        public ?bool $hide_url,
-        /**
          * Short description of the result
          * @var string
          */
