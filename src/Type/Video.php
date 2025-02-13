@@ -41,6 +41,16 @@ final class Video implements TelegramTypeInterface
          */
         public ?PhotoSize $thumbnail,
         /**
+         * Available sizes of the cover of the video in the message
+         * @var PhotoSize[]
+         */
+        public ?array $cover,
+        /**
+         * Timestamp in seconds from which the video will play in the message
+         * @var int
+         */
+        public ?int $start_timestamp,
+        /**
          * Original filename as defined by the sender
          * @var string
          */

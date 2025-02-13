@@ -7,6 +7,7 @@ use Appto\TelegramBot\Interface\TelegramTypeInterface;
  * This object describes the source of a transaction, or its recipient for outgoing
  * transactions. Currently, it can be one of
  *  - <a href="#transactionpartneruser">TransactionPartnerUser</a>
+ *  - <a href="#transactionpartnerchat">TransactionPartnerChat</a>
  *  - <a
  * href="#transactionpartneraffiliateprogram">TransactionPartnerAffiliateProgram</a>
  *  - <a href="#transactionpartnerfragment">TransactionPartnerFragment</a>

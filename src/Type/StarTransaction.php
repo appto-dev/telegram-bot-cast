@@ -4,7 +4,10 @@ namespace Appto\TelegramBot\Type;
 use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
- * Describes a Telegram Star transaction.
+ * Describes a Telegram Star transaction. Note that if the buyer initiates a
+ * chargeback with the payment provider from whom they acquired Stars (e.g., Apple,
+ * Google) following this transaction, the refunded Stars will be deducted from the
+ * bot's balance. This is outside of Telegram's control.
  */
 final class StarTransaction implements TelegramTypeInterface
 {

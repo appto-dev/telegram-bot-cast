@@ -4,8 +4,10 @@ namespace Appto\TelegramBot\Method;
 use Appto\TelegramBot\Interface\TelegramMethodInterface;
 
 /**
- * Verifies a user on behalf of the organization which is represented by the bot.
- * Returns <em>True</em> on success.
+ * Verifies a user <a
+ * href="https://telegram.org/verify#third-party-verification">on behalf of the
+ * organization</a> which is represented by the bot. Returns <em>True</em> on
+ * success.
  */
 final class VerifyUser implements TelegramMethodInterface
 {

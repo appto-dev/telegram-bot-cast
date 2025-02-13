@@ -5,10 +5,10 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
 use Appto\TelegramBot\Type\ReactionType;
 
 /**
- * Use this method to change the chosen reactions on a message. Service messages
- * can't be reacted to. Automatically forwarded messages from a channel to its
- * discussion group have the same available reactions as messages in the channel.
- * Bots can't use paid reactions. Returns <em>True</em> on success.
+ * Use this method to change the chosen reactions on a message. Service messages of
+ * some types can't be reacted to. Automatically forwarded messages from a channel
+ * to its discussion group have the same available reactions as messages in the
+ * channel. Bots can't use paid reactions. Returns <em>True</em> on success.
  */
 final class SetMessageReaction implements TelegramMethodInterface
 {
