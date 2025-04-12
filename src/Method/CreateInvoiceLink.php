@@ -61,7 +61,7 @@ final class CreateInvoiceLink implements TelegramMethodInterface
          * used. Currently, it must always be 2592000 (30 days) if specified. Any number of
          * subscriptions can be active for a given bot at the same time, including multiple
          * concurrent subscriptions from the same user. Subscription price must no exceed
-         * 2500 Telegram Stars.
+         * 10000 Telegram Stars.
          * @var int
          */
         public ?int $subscription_period,
