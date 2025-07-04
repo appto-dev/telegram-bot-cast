@@ -62,7 +62,7 @@ final class ChatMemberRestricted implements TelegramTypeInterface
          */
         public bool $can_send_voice_notes,
         /**
-         * True, if the user is allowed to send polls
+         * True, if the user is allowed to send polls and checklists
          * @var bool
          */
         public bool $can_send_polls,

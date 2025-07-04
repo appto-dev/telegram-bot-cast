@@ -23,8 +23,8 @@ final class UpgradeGift implements TelegramMethodInterface
          */
         public string $owned_gift_id,
         /**
-         * Pass True to keep the original gift text, sender and receiver in the upgraded
-         * gift
+         * Pass <em>True</em> to keep the original gift text, sender and receiver in the
+         * upgraded gift
          * @var bool
          */
         public ?bool $keep_original_details,

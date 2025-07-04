@@ -89,6 +89,11 @@ final class ExternalReplyInfo implements TelegramTypeInterface
          */
         public ?true $has_media_spoiler,
         /**
+         * Message is a checklist
+         * @var Checklist
+         */
+        public ?Checklist $checklist,
+        /**
          * Message is a shared contact, information about the contact
          * @var Contact
          */
