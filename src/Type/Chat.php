@@ -47,6 +47,11 @@ final class Chat implements TelegramTypeInterface
          * @var true
          */
         public ?true $is_forum,
+        /**
+         * True, if the chat is the direct messages chat of a channel
+         * @var true
+         */
+        public ?true $is_direct_messages,
     ) {
     }
 }

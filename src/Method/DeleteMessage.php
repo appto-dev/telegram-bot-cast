@@ -13,8 +13,10 @@ use Appto\TelegramBot\Interface\TelegramMethodInterface;
  * private chats.- Bots granted <em>can_post_messages</em> permissions can delete
  * outgoing messages in channels.- If the bot is an administrator of a group, it
  * can delete any message there.- If the bot has <em>can_delete_messages</em>
- * permission in a supergroup or a channel, it can delete any message there.Returns
- * <em>True</em> on success.
+ * administrator right in a supergroup or a channel, it can delete any message
+ * there.- If the bot has <em>can_manage_direct_messages</em> administrator right
+ * in a channel, it can delete any message in the corresponding direct messages
+ * chat.Returns <em>True</em> on success.
  */
 final class DeleteMessage implements TelegramMethodInterface
 {

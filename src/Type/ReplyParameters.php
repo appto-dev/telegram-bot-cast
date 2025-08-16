@@ -18,7 +18,8 @@ final class ReplyParameters implements TelegramTypeInterface
         /**
          * If the message to be replied to is from a different chat, unique identifier for
          * the chat or username of the channel (in the format @channelusername). Not
-         * supported for messages sent on behalf of a business account.
+         * supported for messages sent on behalf of a business account and messages from
+         * channel direct messages chats.
          * @var int|string
          */
         public int|string|null $chat_id,
@@ -54,6 +55,11 @@ final class ReplyParameters implements TelegramTypeInterface
          * @var int
          */
         public ?int $quote_position,
+        /**
+         * Identifier of the specific checklist task to be replied to
+         * @var int
+         */
+        public ?int $checklist_task_id,
     ) {
     }
 }

@@ -94,6 +94,12 @@ final class ChatAdministratorRights implements TelegramTypeInterface
          * @var bool
          */
         public ?bool $can_manage_topics,
+        /**
+         * True, if the administrator can manage direct messages of the channel and decline
+         * suggested posts; for channels only
+         * @var bool
+         */
+        public ?bool $can_manage_direct_messages,
     ) {
     }
 }

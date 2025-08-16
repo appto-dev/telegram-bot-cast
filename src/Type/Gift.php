@@ -42,6 +42,11 @@ final class Gift implements TelegramTypeInterface
          * @var int
          */
         public ?int $remaining_count,
+        /**
+         * Information about the chat that published the gift
+         * @var Chat
+         */
+        public ?Chat $publisher_chat,
     ) {
     }
 }

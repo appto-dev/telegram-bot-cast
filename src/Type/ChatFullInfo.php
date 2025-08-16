@@ -48,6 +48,11 @@ final class ChatFullInfo implements TelegramTypeInterface
          */
         public ?true $is_forum,
         /**
+         * True, if the chat is the direct messages chat of a channel
+         * @var true
+         */
+        public ?true $is_direct_messages,
+        /**
          * Identifier of the accent color for the chat name and backgrounds of the chat
          * photo, reply header, and link preview. See accent colors for more details.
          * @var int
@@ -94,6 +99,11 @@ final class ChatFullInfo implements TelegramTypeInterface
          * @var Chat
          */
         public ?Chat $personal_chat,
+        /**
+         * Information about the corresponding channel chat; for direct messages chats only
+         * @var Chat
+         */
+        public ?Chat $parent_chat,
         /**
          * List of available reactions allowed in the chat. If omitted, then all emoji
          * reactions are allowed.

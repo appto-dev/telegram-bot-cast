@@ -14,7 +14,8 @@ final class VerifyChat implements TelegramMethodInterface
     public function __construct(
         /**
          * Unique identifier for the target chat or username of the target channel (in the
-         * format <code>@channelusername</code>)
+         * format <code>@channelusername</code>). Channel direct messages chats can't be
+         * verified.
          * @var int|string
          */
         public int|string $chat_id,

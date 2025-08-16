@@ -19,7 +19,8 @@ final class SendGame implements TelegramMethodInterface
          */
         public ?string $business_connection_id,
         /**
-         * Unique identifier for the target chat
+         * Unique identifier for the target chat. Games can't be sent to channel direct
+         * messages chats and channel chats.
          * @var int
          */
         public int $chat_id,

@@ -4,11 +4,11 @@ namespace Appto\TelegramBot\Method;
 use Appto\TelegramBot\Interface\TelegramMethodInterface;
 
 /**
- * Use this method to clear the list of pinned messages in a chat. If the chat is
- * not a private chat, the bot must be an administrator in the chat for this to
- * work and must have the 'can_pin_messages' administrator right in a supergroup or
- * 'can_edit_messages' administrator right in a channel. Returns <em>True</em> on
- * success.
+ * Use this method to clear the list of pinned messages in a chat. In private chats
+ * and channel direct messages chats, no additional rights are required to unpin
+ * all pinned messages. Conversely, the bot must be an administrator with the
+ * 'can_pin_messages' right or the 'can_edit_messages' right to unpin all pinned
+ * messages in groups and channels respectively. Returns <em>True</em> on success.
  */
 final class UnpinAllChatMessages implements TelegramMethodInterface
 {

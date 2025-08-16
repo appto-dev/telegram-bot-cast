@@ -12,7 +12,8 @@ final class BotCommandScopeChat implements TelegramTypeInterface
     public function __construct(
         /**
          * Unique identifier for the target chat or username of the target supergroup (in
-         * the format @supergroupusername)
+         * the format @supergroupusername). Channel direct messages chats and channel chats
+         * aren't supported.
          * @var int|string
          */
         public int|string $chat_id,
