@@ -25,7 +25,7 @@ final class SendGift implements TelegramMethodInterface
          */
         public int|string|null $chat_id,
         /**
-         * Identifier of the gift
+         * Identifier of the gift; limited gifts can't be sent to channel chats
          * @var string
          */
         public string $gift_id,

@@ -30,6 +30,11 @@ final class AcceptedGiftTypes implements TelegramTypeInterface
          * @var bool
          */
         public bool $premium_subscription,
+        /**
+         * True, if transfers of unique gifts from channels are accepted
+         * @var bool
+         */
+        public bool $gifts_from_channels,
     ) {
     }
 }

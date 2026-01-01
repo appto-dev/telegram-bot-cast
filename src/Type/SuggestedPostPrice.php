@@ -4,7 +4,7 @@ namespace Appto\TelegramBot\Type;
 use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
- * Desribes price of a suggested post.
+ * Describes the price of a suggested post.
  */
 final class SuggestedPostPrice implements TelegramTypeInterface
 {
