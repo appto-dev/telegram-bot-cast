@@ -4,9 +4,9 @@ namespace Appto\TelegramBot\Type;
 use Appto\TelegramBot\Interface\TelegramTypeInterface;
 
 /**
- * This object represents a video file.
+ * This object represents a video file of a specific quality.
  */
-final class Video implements TelegramTypeInterface
+final class VideoQuality implements TelegramTypeInterface
 {
     public function __construct(
         /**
@@ -21,50 +21,20 @@ final class Video implements TelegramTypeInterface
          */
         public string $file_unique_id,
         /**
-         * Video width as defined by the sender
+         * Video width
          * @var int
          */
         public int $width,
         /**
-         * Video height as defined by the sender
+         * Video height
          * @var int
          */
         public int $height,
         /**
-         * Duration of the video in seconds as defined by the sender
-         * @var int
-         */
-        public int $duration,
-        /**
-         * Video thumbnail
-         * @var PhotoSize
-         */
-        public ?PhotoSize $thumbnail,
-        /**
-         * Available sizes of the cover of the video in the message
-         * @var PhotoSize[]
-         */
-        public ?array $cover,
-        /**
-         * Timestamp in seconds from which the video will play in the message
-         * @var int
-         */
-        public ?int $start_timestamp,
-        /**
-         * List of available qualities of the video
-         * @var VideoQuality[]
-         */
-        public ?array $qualities,
-        /**
-         * Original filename as defined by the sender
+         * Codec that was used to encode the video, for example, "h264", "h265", or "av01"
          * @var string
          */
-        public ?string $file_name,
-        /**
-         * MIME type of the file as defined by the sender
-         * @var string
-         */
-        public ?string $mime_type,
+        public string $codec,
         /**
          * File size in bytes. It can be bigger than 2^31 and some programming languages
          * may have difficulty/silent defects in interpreting it. But it has at most 52
