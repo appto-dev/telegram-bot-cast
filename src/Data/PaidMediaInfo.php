@@ -1,0 +1,20 @@
+<?php
+
+namespace Appto\TelegramBot\Data;
+
+use Appto\TelegramBot\Interfaces\PaidMedia;
+use Appto\TelegramBot\Interfaces\TelegramBotData;
+
+/**
+ * Describes the paid media added to a message.
+ */
+final class PaidMediaInfo implements TelegramBotData
+{
+    public function __construct(
+        /** The number of Telegram Stars that must be paid to buy access to the media */
+        public int $star_count,
+        /** Information about the paid media */
+        public PaidMedia $paid_media,
+    ) {
+    }
+}

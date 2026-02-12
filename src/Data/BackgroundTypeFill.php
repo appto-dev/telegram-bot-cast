@@ -1,0 +1,23 @@
+<?php
+
+namespace Appto\TelegramBot\Data;
+
+use Appto\TelegramBot\Interfaces\BackgroundFill;
+use Appto\TelegramBot\Interfaces\BackgroundType;
+use Appto\TelegramBot\Interfaces\TelegramBotData;
+
+/**
+ * The background is automatically filled based on the selected colors.
+ */
+final class BackgroundTypeFill implements TelegramBotData, BackgroundType
+{
+    public function __construct(
+        /** Type of the background, always "fill" */
+        public string $type,
+        /** The background fill */
+        public BackgroundFill $fill,
+        /** Dimming of the background in dark themes, as a percentage; 0-100 */
+        public int $dark_theme_dimming,
+    ) {
+    }
+}
