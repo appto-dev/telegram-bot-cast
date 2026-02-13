@@ -16,7 +16,7 @@ final class GetMyCommands implements TelegramBotDto
     public function __construct(
         /**
          * A JSON-serialized object, describing scope of users. Defaults to <a
-         * href="https://core.telegram.org/bots/api#botcommandscopedefault">BotCommandScopeDefault</a>.
+         * href="#botcommandscopedefault">BotCommandScopeDefault</a>.
          */
         public ?BotCommandScope $scope,
         /** A two-letter ISO 639-1 language code or an empty string */
