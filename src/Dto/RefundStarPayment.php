@@ -5,8 +5,8 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Refunds a successful payment in <a href="https://t.me/BotNews/90">Telegram
- * Stars</a>. Returns <em>True</em> on success.
+ * Refunds a successful payment in <a href="https://t.me/BotNews/90">Telegram Stars</a>. Returns <em>True</em> on
+ * success.
  */
 final class RefundStarPayment implements TelegramBotDto
 {

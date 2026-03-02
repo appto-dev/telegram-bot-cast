@@ -5,9 +5,8 @@ namespace Appto\TelegramBot\Data;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * This object represents one size of a photo or a <a
- * href="https://core.telegram.org/bots/api#document">file</a> / <a
- * href="https://core.telegram.org/bots/api#sticker">sticker</a> thumbnail.
+ * This object represents one size of a photo or a <a href="https://core.telegram.org/bots/api#document">file</a>
+ * / <a href="https://core.telegram.org/bots/api#sticker">sticker</a> thumbnail.
  */
 final class PhotoSize implements TelegramBotData
 {
@@ -15,8 +14,8 @@ final class PhotoSize implements TelegramBotData
         /** Identifier for this file, which can be used to download or reuse the file */
         public string $file_id,
         /**
-         * Unique identifier for this file, which is supposed to be the same over time and
-         * for different bots. Can't be used to download or reuse the file.
+         * Unique identifier for this file, which is supposed to be the same over time and for different bots. Can't be
+         * used to download or reuse the file.
          */
         public string $file_unique_id,
         /** Photo width */

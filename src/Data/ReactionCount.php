@@ -6,8 +6,7 @@ use Appto\TelegramBot\Interfaces\ReactionType;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a reaction added to a message along with the number of times it was
- * added.
+ * Represents a reaction added to a message along with the number of times it was added.
  */
 final class ReactionCount implements TelegramBotData
 {

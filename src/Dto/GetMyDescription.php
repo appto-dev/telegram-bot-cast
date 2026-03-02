@@ -5,10 +5,8 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Use this method to get the current bot description for the given user language.
- * Returns <a
- * href="https://core.telegram.org/bots/api#botdescription">BotDescription</a> on
- * success.
+ * Use this method to get the current bot description for the given user language. Returns <a
+ * href="https://core.telegram.org/bots/api#botdescription">BotDescription</a> on success.
  */
 final class GetMyDescription implements TelegramBotDto
 {

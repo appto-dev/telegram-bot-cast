@@ -5,9 +5,8 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Transfers Telegram Stars from the business account balance to the bot's balance.
- * Requires the <em>can_transfer_stars</em> business bot right. Returns
- * <em>True</em> on success.
+ * Transfers Telegram Stars from the business account balance to the bot's balance. Requires the
+ * <em>can_transfer_stars</em> business bot right. Returns <em>True</em> on success.
  */
 final class TransferBusinessAccountStars implements TelegramBotDto
 {

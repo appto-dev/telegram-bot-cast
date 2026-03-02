@@ -10,8 +10,11 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class StarTransactions implements TelegramBotData
 {
     public function __construct(
-        /** The list of transactions */
-        public StarTransaction $transactions,
+        /**
+         * The list of transactions
+         * @var array<StarTransaction>
+         */
+        public array $transactions,
     ) {
     }
 }

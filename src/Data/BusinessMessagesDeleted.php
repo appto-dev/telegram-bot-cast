@@ -5,8 +5,7 @@ namespace Appto\TelegramBot\Data;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * This object is received when messages are deleted from a connected business
- * account.
+ * This object is received when messages are deleted from a connected business account.
  */
 final class BusinessMessagesDeleted implements TelegramBotData
 {
@@ -14,11 +13,14 @@ final class BusinessMessagesDeleted implements TelegramBotData
         /** Unique identifier of the business connection */
         public string $business_connection_id,
         /**
-         * Information about a chat in the business account. The bot may not have access to
-         * the chat or the corresponding user.
+         * Information about a chat in the business account. The bot may not have access to the chat or the corresponding
+         * user.
          */
         public Chat $chat,
-        /** The list of identifiers of deleted messages in the chat of the business account */
+        /**
+         * The list of identifiers of deleted messages in the chat of the business account
+         * @var array<int>
+         */
         public array $message_ids,
     ) {
     }

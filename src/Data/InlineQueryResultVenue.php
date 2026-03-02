@@ -7,9 +7,8 @@ use Appto\TelegramBot\Interfaces\InputMessageContent;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a venue. By default, the venue will be sent by the user.
- * Alternatively, you can use <em>input_message_content</em> to send a message with
- * the specified content instead of the venue.
+ * Represents a venue. By default, the venue will be sent by the user. Alternatively, you can use
+ * <em>input_message_content</em> to send a message with the specified content instead of the venue.
  */
 final class InlineQueryResultVenue implements TelegramBotData, InlineQueryResult
 {
@@ -29,8 +28,8 @@ final class InlineQueryResultVenue implements TelegramBotData, InlineQueryResult
         /** Foursquare identifier of the venue if known */
         public ?string $foursquare_id,
         /**
-         * Foursquare type of the venue, if known. (For example,
-         * "arts_entertainment/default", "arts_entertainment/aquarium" or "food/icecream".)
+         * Foursquare type of the venue, if known. (For example, "arts_entertainment/default",
+         * "arts_entertainment/aquarium" or "food/icecream".)
          */
         public ?string $foursquare_type,
         /** Google Places identifier of the venue */

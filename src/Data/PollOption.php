@@ -13,10 +13,11 @@ final class PollOption implements TelegramBotData
         /** Option text, 1-100 characters */
         public string $text,
         /**
-         * Special entities that appear in the option text. Currently, only custom emoji
-         * entities are allowed in poll option texts
+         * Special entities that appear in the option text. Currently, only custom emoji entities are allowed in poll
+         * option texts
+         * @var array<MessageEntity>
          */
-        public ?MessageEntity $text_entities,
+        public ?array $text_entities,
         /** Number of users that voted for this option */
         public int $voter_count,
     ) {

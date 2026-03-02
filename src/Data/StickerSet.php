@@ -16,8 +16,11 @@ final class StickerSet implements TelegramBotData
         public string $title,
         /** Type of stickers in the set, currently one of "regular", "mask", "custom_emoji" */
         public string $sticker_type,
-        /** List of all set stickers */
-        public Sticker $stickers,
+        /**
+         * List of all set stickers
+         * @var array<Sticker>
+         */
+        public array $stickers,
         /** Sticker set thumbnail in the .WEBP, .TGS, or .WEBM format */
         public ?PhotoSize $thumbnail,
     ) {

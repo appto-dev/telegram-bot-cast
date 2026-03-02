@@ -6,9 +6,8 @@ use Appto\TelegramBot\Interfaces\BotCommandScope;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents the <a
- * href="https://core.telegram.org/bots/api#botcommandscope">scope</a> of bot
- * commands, covering all administrators of a specific group or supergroup chat.
+ * Represents the <a href="https://core.telegram.org/bots/api#botcommandscope">scope</a> of bot commands,
+ * covering all administrators of a specific group or supergroup chat.
  */
 final class BotCommandScopeChatAdministrators implements TelegramBotData, BotCommandScope
 {
@@ -16,9 +15,8 @@ final class BotCommandScopeChatAdministrators implements TelegramBotData, BotCom
         /** Scope type, must be chat_administrators */
         public string $type,
         /**
-         * Unique identifier for the target chat or username of the target supergroup (in
-         * the format @supergroupusername). Channel direct messages chats and channel chats
-         * aren't supported.
+         * Unique identifier for the target chat or username of the target supergroup (in the format
+         * @supergroupusername). Channel direct messages chats and channel chats aren't supported.
          */
         public int|string $chat_id,
     ) {

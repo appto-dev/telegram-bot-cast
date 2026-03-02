@@ -7,8 +7,8 @@ use Appto\TelegramBot\Interfaces\StoryAreaType;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Describes a story area pointing to a suggested reaction. Currently, a story can
- * have up to 5 suggested reaction areas.
+ * Describes a story area pointing to a suggested reaction. Currently, a story can have up to 5 suggested
+ * reaction areas.
  */
 final class StoryAreaTypeSuggestedReaction implements TelegramBotData, StoryAreaType
 {

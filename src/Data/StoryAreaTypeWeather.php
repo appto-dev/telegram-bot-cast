@@ -6,8 +6,7 @@ use Appto\TelegramBot\Interfaces\StoryAreaType;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Describes a story area containing weather information. Currently, a story can
- * have up to 3 weather areas.
+ * Describes a story area containing weather information. Currently, a story can have up to 3 weather areas.
  */
 final class StoryAreaTypeWeather implements TelegramBotData, StoryAreaType
 {

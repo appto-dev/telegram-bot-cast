@@ -10,8 +10,11 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class UserChatBoosts implements TelegramBotData
 {
     public function __construct(
-        /** The list of boosts added to the chat by the user */
-        public ChatBoost $boosts,
+        /**
+         * The list of boosts added to the chat by the user
+         * @var array<ChatBoost>
+         */
+        public array $boosts,
     ) {
     }
 }

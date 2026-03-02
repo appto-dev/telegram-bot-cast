@@ -17,10 +17,7 @@ final class MessageOriginChat implements TelegramBotData, MessageOrigin
         public int $date,
         /** Chat that sent the message originally */
         public Chat $sender_chat,
-        /**
-         * For messages originally sent by an anonymous chat administrator, original
-         * message author signature
-         */
+        /** For messages originally sent by an anonymous chat administrator, original message author signature */
         public ?string $author_signature,
     ) {
     }

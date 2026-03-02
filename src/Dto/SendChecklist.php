@@ -8,17 +8,13 @@ use Appto\TelegramBot\Data\ReplyParameters;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Use this method to send a checklist on behalf of a connected business account.
- * On success, the sent <a
+ * Use this method to send a checklist on behalf of a connected business account. On success, the sent <a
  * href="https://core.telegram.org/bots/api#message">Message</a> is returned.
  */
 final class SendChecklist implements TelegramBotDto
 {
     public function __construct(
-        /**
-         * Unique identifier of the business connection on behalf of which the message will
-         * be sent
-         */
+        /** Unique identifier of the business connection on behalf of which the message will be sent */
         public string $business_connection_id,
         /** Unique identifier for the target chat */
         public int $chat_id,
@@ -32,7 +28,7 @@ final class SendChecklist implements TelegramBotDto
         public ?string $message_effect_id,
         /** A JSON-serialized object for description of the message to reply to */
         public ?ReplyParameters $reply_parameters,
-        /** A JSON-serialized object for an inline keyboard */
+        /** A JSON-serialized object for an <a href="/bots/features#inline-keyboards">inline keyboard</a> */
         public ?InlineKeyboardMarkup $reply_markup,
     ) {
     }

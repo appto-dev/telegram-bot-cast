@@ -5,9 +5,8 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Deletes a story previously posted by the bot on behalf of a managed business
- * account. Requires the <em>can_manage_stories</em> business bot right. Returns
- * <em>True</em> on success.
+ * Deletes a story previously posted by the bot on behalf of a managed business account. Requires the
+ * <em>can_manage_stories</em> business bot right. Returns <em>True</em> on success.
  */
 final class DeleteStory implements TelegramBotDto
 {

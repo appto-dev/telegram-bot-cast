@@ -13,8 +13,8 @@ final class Video implements TelegramBotData
         /** Identifier for this file, which can be used to download or reuse the file */
         public string $file_id,
         /**
-         * Unique identifier for this file, which is supposed to be the same over time and
-         * for different bots. Can't be used to download or reuse the file.
+         * Unique identifier for this file, which is supposed to be the same over time and for different bots. Can't be
+         * used to download or reuse the file.
          */
         public string $file_unique_id,
         /** Video width as defined by the sender */
@@ -25,21 +25,26 @@ final class Video implements TelegramBotData
         public int $duration,
         /** Video thumbnail */
         public ?PhotoSize $thumbnail,
-        /** Available sizes of the cover of the video in the message */
-        public ?PhotoSize $cover,
+        /**
+         * Available sizes of the cover of the video in the message
+         * @var array<PhotoSize>
+         */
+        public ?array $cover,
         /** Timestamp in seconds from which the video will play in the message */
         public ?int $start_timestamp,
-        /** List of available qualities of the video */
-        public ?VideoQuality $qualities,
+        /**
+         * List of available qualities of the video
+         * @var array<VideoQuality>
+         */
+        public ?array $qualities,
         /** Original filename as defined by the sender */
         public ?string $file_name,
         /** MIME type of the file as defined by the sender */
         public ?string $mime_type,
         /**
-         * File size in bytes. It can be bigger than 2^31 and some programming languages
-         * may have difficulty/silent defects in interpreting it. But it has at most 52
-         * significant bits, so a signed 64-bit integer or double-precision float type are
-         * safe for storing this value.
+         * File size in bytes. It can be bigger than 2^31 and some programming languages may have difficulty/silent
+         * defects in interpreting it. But it has at most 52 significant bits, so a signed 64-bit integer or
+         * double-precision float type are safe for storing this value.
          */
         public ?int $file_size,
     ) {

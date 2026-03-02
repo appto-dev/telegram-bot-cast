@@ -5,8 +5,7 @@ namespace Appto\TelegramBot\Data;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * This object represents a service message about a change in auto-delete timer
- * settings.
+ * This object represents a service message about a change in auto-delete timer settings.
  */
 final class MessageAutoDeleteTimerChanged implements TelegramBotData
 {

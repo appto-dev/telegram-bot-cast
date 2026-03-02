@@ -6,8 +6,7 @@ use Appto\TelegramBot\Interfaces\StoryAreaType;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Describes a story area pointing to a unique gift. Currently, a story can have at
- * most 1 unique gift area.
+ * Describes a story area pointing to a unique gift. Currently, a story can have at most 1 unique gift area.
  */
 final class StoryAreaTypeUniqueGift implements TelegramBotData, StoryAreaType
 {

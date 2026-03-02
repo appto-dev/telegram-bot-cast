@@ -6,8 +6,8 @@ use Appto\TelegramBot\Interfaces\ChatMember;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a <a href="https://core.telegram.org/bots/api#chatmember">chat
- * member</a> that owns the chat and has all administrator privileges.
+ * Represents a <a href="https://core.telegram.org/bots/api#chatmember">chat member</a> that owns the chat and
+ * has all administrator privileges.
  */
 final class ChatMemberOwner implements TelegramBotData, ChatMember
 {

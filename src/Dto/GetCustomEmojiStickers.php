@@ -5,16 +5,15 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Use this method to get information about custom emoji stickers by their
- * identifiers. Returns an Array of <a
+ * Use this method to get information about custom emoji stickers by their identifiers. Returns an Array of <a
  * href="https://core.telegram.org/bots/api#sticker">Sticker</a> objects.
  */
 final class GetCustomEmojiStickers implements TelegramBotDto
 {
     public function __construct(
         /**
-         * A JSON-serialized list of custom emoji identifiers. At most 200 custom emoji
-         * identifiers can be specified.
+         * A JSON-serialized list of custom emoji identifiers. At most 200 custom emoji identifiers can be specified.
+         * @var array<string>
          */
         public array $custom_emoji_ids,
     ) {

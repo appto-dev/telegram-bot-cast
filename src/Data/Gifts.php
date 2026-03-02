@@ -10,8 +10,11 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class Gifts implements TelegramBotData
 {
     public function __construct(
-        /** The list of gifts */
-        public Gift $gifts,
+        /**
+         * The list of gifts
+         * @var array<Gift>
+         */
+        public array $gifts,
     ) {
     }
 }

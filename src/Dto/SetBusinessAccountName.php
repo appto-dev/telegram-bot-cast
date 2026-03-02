@@ -5,8 +5,8 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Changes the first and last name of a managed business account. Requires the
- * <em>can_change_name</em> business bot right. Returns <em>True</em> on success.
+ * Changes the first and last name of a managed business account. Requires the <em>can_change_name</em> business
+ * bot right. Returns <em>True</em> on success.
  */
 final class SetBusinessAccountName implements TelegramBotDto
 {

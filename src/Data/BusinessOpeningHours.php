@@ -12,8 +12,11 @@ final class BusinessOpeningHours implements TelegramBotData
     public function __construct(
         /** Unique name of the time zone for which the opening hours are defined */
         public string $time_zone_name,
-        /** List of time intervals describing business opening hours */
-        public BusinessOpeningHoursInterval $opening_hours,
+        /**
+         * List of time intervals describing business opening hours
+         * @var array<BusinessOpeningHoursInterval>
+         */
+        public array $opening_hours,
     ) {
     }
 }

@@ -7,9 +7,9 @@ use Appto\TelegramBot\Interfaces\InputMessageContent;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a contact with a phone number. By default, this contact will be sent
- * by the user. Alternatively, you can use <em>input_message_content</em> to send a
- * message with the specified content instead of the contact.
+ * Represents a contact with a phone number. By default, this contact will be sent by the user. Alternatively,
+ * you can use <em>input_message_content</em> to send a message with the specified content instead of the
+ * contact.
  */
 final class InlineQueryResultContact implements TelegramBotData, InlineQueryResult
 {

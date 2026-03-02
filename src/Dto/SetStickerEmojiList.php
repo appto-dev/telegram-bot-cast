@@ -5,16 +5,18 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Use this method to change the list of emoji assigned to a regular or custom
- * emoji sticker. The sticker must belong to a sticker set created by the bot.
- * Returns <em>True</em> on success.
+ * Use this method to change the list of emoji assigned to a regular or custom emoji sticker. The sticker must
+ * belong to a sticker set created by the bot. Returns <em>True</em> on success.
  */
 final class SetStickerEmojiList implements TelegramBotDto
 {
     public function __construct(
         /** File identifier of the sticker */
         public string $sticker,
-        /** A JSON-serialized list of 1-20 emoji associated with the sticker */
+        /**
+         * A JSON-serialized list of 1-20 emoji associated with the sticker
+         * @var array<string>
+         */
         public array $emoji_list,
     ) {
     }

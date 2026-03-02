@@ -6,14 +6,16 @@ use Appto\TelegramBot\Interfaces\ChatMember;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a <a href="https://core.telegram.org/bots/api#chatmember">chat
- * member</a> that has no additional privileges or restrictions.
+ * Represents a <a href="https://core.telegram.org/bots/api#chatmember">chat member</a> that has no additional
+ * privileges or restrictions.
  */
 final class ChatMemberMember implements TelegramBotData, ChatMember
 {
     public function __construct(
         /** The member's status in the chat, always "member" */
         public string $status,
+        /** Tag of the member */
+        public ?string $tag,
         /** Information about the user */
         public User $user,
         /** Date when the user's subscription will expire; Unix time */

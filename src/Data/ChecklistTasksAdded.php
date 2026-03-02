@@ -11,13 +11,15 @@ final class ChecklistTasksAdded implements TelegramBotData
 {
     public function __construct(
         /**
-         * Message containing the checklist to which the tasks were added. Note that the
-         * Message object in this field will not contain the reply_to_message field even if
-         * it itself is a reply.
+         * Message containing the checklist to which the tasks were added. Note that the Message object in this field
+         * will not contain the reply_to_message field even if it itself is a reply.
          */
         public ?Message $checklist_message,
-        /** List of tasks added to the checklist */
-        public ChecklistTask $tasks,
+        /**
+         * List of tasks added to the checklist
+         * @var array<ChecklistTask>
+         */
+        public array $tasks,
     ) {
     }
 }

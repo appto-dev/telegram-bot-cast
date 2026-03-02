@@ -6,8 +6,8 @@ use Appto\TelegramBot\Interfaces\ChatBoostSource;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * The boost was obtained by subscribing to Telegram Premium or by gifting a
- * Telegram Premium subscription to another user.
+ * The boost was obtained by subscribing to Telegram Premium or by gifting a Telegram Premium subscription to
+ * another user.
  */
 final class ChatBoostSourcePremium implements TelegramBotData, ChatBoostSource
 {

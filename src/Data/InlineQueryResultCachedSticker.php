@@ -7,9 +7,8 @@ use Appto\TelegramBot\Interfaces\InputMessageContent;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a link to a sticker stored on the Telegram servers. By default, this
- * sticker will be sent by the user. Alternatively, you can use
- * <em>input_message_content</em> to send a message with the specified content
+ * Represents a link to a sticker stored on the Telegram servers. By default, this sticker will be sent by the
+ * user. Alternatively, you can use <em>input_message_content</em> to send a message with the specified content
  * instead of the sticker.
  */
 final class InlineQueryResultCachedSticker implements TelegramBotData, InlineQueryResult

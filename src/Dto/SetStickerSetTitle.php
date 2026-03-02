@@ -5,8 +5,7 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Use this method to set the title of a created sticker set. Returns <em>True</em>
- * on success.
+ * Use this method to set the title of a created sticker set. Returns <em>True</em> on success.
  */
 final class SetStickerSetTitle implements TelegramBotDto
 {

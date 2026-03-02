@@ -6,8 +6,8 @@ use Appto\TelegramBot\Interfaces\PassportElementError;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents an issue with a document scan. The error is considered resolved when
- * the file with the document scan changes.
+ * Represents an issue with a document scan. The error is considered resolved when the file with the document
+ * scan changes.
  */
 final class PassportElementErrorFile implements TelegramBotData, PassportElementError
 {
@@ -15,9 +15,8 @@ final class PassportElementErrorFile implements TelegramBotData, PassportElement
         /** Error source, must be file */
         public string $source,
         /**
-         * The section of the user's Telegram Passport which has the issue, one of
-         * "utility_bill", "bank_statement", "rental_agreement", "passport_registration",
-         * "temporary_registration"
+         * The section of the user's Telegram Passport which has the issue, one of "utility_bill", "bank_statement",
+         * "rental_agreement", "passport_registration", "temporary_registration"
          */
         public string $type,
         /** Base64-encoded file hash */

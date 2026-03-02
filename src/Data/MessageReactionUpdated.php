@@ -21,10 +21,16 @@ final class MessageReactionUpdated implements TelegramBotData
         public ?Chat $actor_chat,
         /** Date of the change in Unix time */
         public int $date,
-        /** Previous list of reaction types that were set by the user */
-        public ReactionType $old_reaction,
-        /** New list of reaction types that have been set by the user */
-        public ReactionType $new_reaction,
+        /**
+         * Previous list of reaction types that were set by the user
+         * @var array<ReactionType>
+         */
+        public array $old_reaction,
+        /**
+         * New list of reaction types that have been set by the user
+         * @var array<ReactionType>
+         */
+        public array $new_reaction,
     ) {
     }
 }

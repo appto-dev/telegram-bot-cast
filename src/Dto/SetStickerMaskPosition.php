@@ -6,10 +6,9 @@ use Appto\TelegramBot\Data\MaskPosition;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Use this method to change the <a
- * href="https://core.telegram.org/bots/api#maskposition">mask position</a> of a
- * mask sticker. The sticker must belong to a sticker set that was created by the
- * bot. Returns <em>True</em> on success.
+ * Use this method to change the <a href="https://core.telegram.org/bots/api#maskposition">mask position</a> of a
+ * mask sticker. The sticker must belong to a sticker set that was created by the bot. Returns <em>True</em> on
+ * success.
  */
 final class SetStickerMaskPosition implements TelegramBotDto
 {
@@ -17,8 +16,8 @@ final class SetStickerMaskPosition implements TelegramBotDto
         /** File identifier of the sticker */
         public string $sticker,
         /**
-         * A JSON-serialized object with the position where the mask should be placed on
-         * faces. Omit the parameter to remove the mask position.
+         * A JSON-serialized object with the position where the mask should be placed on faces. Omit the parameter to
+         * remove the mask position.
          */
         public ?MaskPosition $mask_position,
     ) {

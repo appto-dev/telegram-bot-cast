@@ -12,8 +12,11 @@ final class UserProfileAudios implements TelegramBotData
     public function __construct(
         /** Total number of profile audios for the target user */
         public int $total_count,
-        /** Requested profile audios */
-        public Audio $audios,
+        /**
+         * Requested profile audios
+         * @var array<Audio>
+         */
+        public array $audios,
     ) {
     }
 }

@@ -5,8 +5,8 @@ namespace Appto\TelegramBot\Dto;
 use Appto\TelegramBot\Interfaces\TelegramBotDto;
 
 /**
- * Use this method to move a sticker in a set created by the bot to a specific
- * position. Returns <em>True</em> on success.
+ * Use this method to move a sticker in a set created by the bot to a specific position. Returns <em>True</em> on
+ * success.
  */
 final class SetStickerPositionInSet implements TelegramBotDto
 {

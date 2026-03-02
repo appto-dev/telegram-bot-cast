@@ -7,10 +7,9 @@ use Appto\TelegramBot\Interfaces\InputMessageContent;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a link to a video file stored on the Telegram servers. By default,
- * this video file will be sent by the user with an optional caption.
- * Alternatively, you can use <em>input_message_content</em> to send a message with
- * the specified content instead of the video.
+ * Represents a link to a video file stored on the Telegram servers. By default, this video file will be sent by
+ * the user with an optional caption. Alternatively, you can use <em>input_message_content</em> to send a message
+ * with the specified content instead of the video.
  */
 final class InlineQueryResultCachedVideo implements TelegramBotData, InlineQueryResult
 {
@@ -27,16 +26,13 @@ final class InlineQueryResultCachedVideo implements TelegramBotData, InlineQuery
         public ?string $description,
         /** Caption of the video to be sent, 0-1024 characters after entities parsing */
         public ?string $caption,
-        /**
-         * Mode for parsing entities in the video caption. See formatting options for more
-         * details.
-         */
+        /** Mode for parsing entities in the video caption. See formatting options for more details. */
         public ?string $parse_mode,
         /**
-         * List of special entities that appear in the caption, which can be specified
-         * instead of parse_mode
+         * List of special entities that appear in the caption, which can be specified instead of parse_mode
+         * @var array<MessageEntity>
          */
-        public ?MessageEntity $caption_entities,
+        public ?array $caption_entities,
         /** Pass True, if the caption must be shown above the message media */
         public ?bool $show_caption_above_media,
         /** Inline keyboard attached to the message */

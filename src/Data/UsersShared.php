@@ -5,18 +5,19 @@ namespace Appto\TelegramBot\Data;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * This object contains information about the users whose identifiers were shared
- * with the bot using a <a
- * href="https://core.telegram.org/bots/api#keyboardbuttonrequestusers">KeyboardButtonRequestUsers</a>
- * button.
+ * This object contains information about the users whose identifiers were shared with the bot using a <a
+ * href="https://core.telegram.org/bots/api#keyboardbuttonrequestusers">KeyboardButtonRequestUsers</a> button.
  */
 final class UsersShared implements TelegramBotData
 {
     public function __construct(
         /** Identifier of the request */
         public int $request_id,
-        /** Information about users shared with the bot. */
-        public SharedUser $users,
+        /**
+         * Information about users shared with the bot.
+         * @var array<SharedUser>
+         */
+        public array $users,
     ) {
     }
 }

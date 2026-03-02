@@ -10,10 +10,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class LocationAddress implements TelegramBotData
 {
     public function __construct(
-        /**
-         * The two-letter ISO 3166-1 alpha-2 country code of the country where the location
-         * is located
-         */
+        /** The two-letter ISO 3166-1 alpha-2 country code of the country where the location is located */
         public string $country_code,
         /** State of the location */
         public ?string $state,

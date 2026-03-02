@@ -6,8 +6,7 @@ use Appto\TelegramBot\Interfaces\StoryAreaType;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Describes a story area pointing to a location. Currently, a story can have up to
- * 10 location areas.
+ * Describes a story area pointing to a location. Currently, a story can have up to 10 location areas.
  */
 final class StoryAreaTypeLocation implements TelegramBotData, StoryAreaType
 {

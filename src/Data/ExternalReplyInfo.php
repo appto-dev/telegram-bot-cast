@@ -6,28 +6,22 @@ use Appto\TelegramBot\Interfaces\MessageOrigin;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * This object contains information about a message that is being replied to, which
- * may come from another chat or forum topic.
+ * This object contains information about a message that is being replied to, which may come from another chat or
+ * forum topic.
  */
 final class ExternalReplyInfo implements TelegramBotData
 {
     public function __construct(
         /** Origin of the message replied to by the given message */
         public MessageOrigin $origin,
-        /**
-         * Chat the original message belongs to. Available only if the chat is a supergroup
-         * or a channel.
-         */
+        /** Chat the original message belongs to. Available only if the chat is a supergroup or a channel. */
         public ?Chat $chat,
         /**
-         * Unique message identifier inside the original chat. Available only if the
-         * original chat is a supergroup or a channel.
+         * Unique message identifier inside the original chat. Available only if the original chat is a supergroup or a
+         * channel.
          */
         public ?int $message_id,
-        /**
-         * Options used for link preview generation for the original message, if it is a
-         * text message
-         */
+        /** Options used for link preview generation for the original message, if it is a text message */
         public ?LinkPreviewOptions $link_preview_options,
         /** Message is an animation, information about the animation */
         public ?Animation $animation,
@@ -37,8 +31,11 @@ final class ExternalReplyInfo implements TelegramBotData
         public ?Document $document,
         /** Message contains paid media; information about the paid media */
         public ?PaidMediaInfo $paid_media,
-        /** Message is a photo, available sizes of the photo */
-        public ?PhotoSize $photo,
+        /**
+         * Message is a photo, available sizes of the photo
+         * @var array<PhotoSize>
+         */
+        public ?array $photo,
         /** Message is a sticker, information about the sticker */
         public ?Sticker $sticker,
         /** Message is a forwarded story */
@@ -63,10 +60,7 @@ final class ExternalReplyInfo implements TelegramBotData
         public ?Giveaway $giveaway,
         /** A giveaway with public winners was completed */
         public ?GiveawayWinners $giveaway_winners,
-        /**
-         * Message is an invoice for a payment, information about the invoice. More about
-         * payments
-         */
+        /** Message is an invoice for a payment, information about the invoice. More about payments */
         public ?Invoice $invoice,
         /** Message is a shared location, information about the location */
         public ?Location $location,

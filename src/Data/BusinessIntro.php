@@ -5,8 +5,7 @@ namespace Appto\TelegramBot\Data;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Contains information about the start page settings of a Telegram Business
- * account.
+ * Contains information about the start page settings of a Telegram Business account.
  */
 final class BusinessIntro implements TelegramBotData
 {

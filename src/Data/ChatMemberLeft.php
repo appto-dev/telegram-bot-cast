@@ -6,9 +6,8 @@ use Appto\TelegramBot\Interfaces\ChatMember;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a <a href="https://core.telegram.org/bots/api#chatmember">chat
- * member</a> that isn't currently a member of the chat, but may join it
- * themselves.
+ * Represents a <a href="https://core.telegram.org/bots/api#chatmember">chat member</a> that isn't currently a
+ * member of the chat, but may join it themselves.
  */
 final class ChatMemberLeft implements TelegramBotData, ChatMember
 {

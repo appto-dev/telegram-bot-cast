@@ -7,12 +7,11 @@ use Appto\TelegramBot\Interfaces\InputMessageContent;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
- * Represents a link to a page containing an embedded video player or a video file.
- * By default, this video file will be sent by the user with an optional caption.
- * Alternatively, you can use <em>input_message_content</em> to send a message with
- * the specified content instead of the video.
- * If an InlineQueryResultVideo message contains an embedded video (e.g., YouTube),
- * you must replace its content using <em>input_message_content</em>.
+ * Represents a link to a page containing an embedded video player or a video file. By default, this video file
+ * will be sent by the user with an optional caption. Alternatively, you can use <em>input_message_content</em>
+ * to send a message with the specified content instead of the video.
+ * If an InlineQueryResultVideo message contains an embedded video (e.g., YouTube), you must replace its content
+ * using <em>input_message_content</em>.
  */
 final class InlineQueryResultVideo implements TelegramBotData, InlineQueryResult
 {
@@ -31,16 +30,13 @@ final class InlineQueryResultVideo implements TelegramBotData, InlineQueryResult
         public string $title,
         /** Caption of the video to be sent, 0-1024 characters after entities parsing */
         public ?string $caption,
-        /**
-         * Mode for parsing entities in the video caption. See formatting options for more
-         * details.
-         */
+        /** Mode for parsing entities in the video caption. See formatting options for more details. */
         public ?string $parse_mode,
         /**
-         * List of special entities that appear in the caption, which can be specified
-         * instead of parse_mode
+         * List of special entities that appear in the caption, which can be specified instead of parse_mode
+         * @var array<MessageEntity>
          */
-        public ?MessageEntity $caption_entities,
+        public ?array $caption_entities,
         /** Pass True, if the caption must be shown above the message media */
         public ?bool $show_caption_above_media,
         /** Video width */
@@ -54,9 +50,8 @@ final class InlineQueryResultVideo implements TelegramBotData, InlineQueryResult
         /** Inline keyboard attached to the message */
         public ?InlineKeyboardMarkup $reply_markup,
         /**
-         * Content of the message to be sent instead of the video. This field is required
-         * if InlineQueryResultVideo is used to send an HTML-page as a result (e.g., a
-         * YouTube video).
+         * Content of the message to be sent instead of the video. This field is required if InlineQueryResultVideo is
+         * used to send an HTML-page as a result (e.g., a YouTube video).
          */
         public ?InputMessageContent $input_message_content,
     ) {

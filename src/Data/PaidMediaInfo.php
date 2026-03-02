@@ -13,8 +13,11 @@ final class PaidMediaInfo implements TelegramBotData
     public function __construct(
         /** The number of Telegram Stars that must be paid to buy access to the media */
         public int $star_count,
-        /** Information about the paid media */
-        public PaidMedia $paid_media,
+        /**
+         * Information about the paid media
+         * @var array<PaidMedia>
+         */
+        public array $paid_media,
     ) {
     }
 }

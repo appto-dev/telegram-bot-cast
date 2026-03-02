@@ -6,8 +6,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 use Appto\TelegramBot\Interfaces\TransactionPartner;
 
 /**
- * Describes the affiliate program that issued the affiliate commission received
- * via this transaction.
+ * Describes the affiliate program that issued the affiliate commission received via this transaction.
  */
 final class TransactionPartnerAffiliateProgram implements TelegramBotData, TransactionPartner
 {
@@ -17,8 +16,8 @@ final class TransactionPartnerAffiliateProgram implements TelegramBotData, Trans
         /** Information about the bot that sponsored the affiliate program */
         public ?User $sponsor_user,
         /**
-         * The number of Telegram Stars received by the bot for each 1000 Telegram Stars
-         * received by the affiliate program sponsor from referred users
+         * The number of Telegram Stars received by the bot for each 1000 Telegram Stars received by the affiliate
+         * program sponsor from referred users
          */
         public int $commission_per_mille,
     ) {
