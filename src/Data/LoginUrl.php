@@ -28,7 +28,7 @@ final class LoginUrl implements TelegramBotData
          * Checking authorization.
          */
         public string $url,
-        /** New text of the button in forwarded messages. */
+        /** New text of the button in forwarded messages */
         public ?string $forward_text,
         /**
          * Username of a bot, which will be used for user authorization. See Setting up a bot for more details. If not
@@ -36,7 +36,7 @@ final class LoginUrl implements TelegramBotData
          * with the bot. See Linking your domain to the bot for more details.
          */
         public ?string $bot_username,
-        /** Pass True to request the permission for your bot to send messages to the user. */
+        /** Pass True to request the permission for your bot to send messages to the user */
         public ?bool $request_write_access,
     ) {
     }

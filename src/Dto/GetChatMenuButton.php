@@ -11,7 +11,10 @@ use Appto\TelegramBot\Interfaces\TelegramBotDto;
 final class GetChatMenuButton implements TelegramBotDto
 {
     public function __construct(
-        /** Unique identifier for the target private chat. If not specified, default bot's menu button will be returned */
+        /**
+         * Unique identifier for the target private chat. If not specified, the bot's default menu button will be
+         * returned.
+         */
         public ?int $chat_id,
     ) {
     }

@@ -11,9 +11,9 @@ final class LeaveChat implements TelegramBotDto
 {
     public function __construct(
         /**
-         * Unique identifier for the target chat or username of the target supergroup or channel (in the format
-         * <code>@channelusername</code>). Channel direct messages chats aren't supported; leave the corresponding
-         * channel instead.
+         * Unique identifier for the target chat or username of the target supergroup or channel in the format
+         * <code>@username</code>. Channel direct messages chats aren't supported; leave the corresponding channel
+         * instead.
          */
         public int|string $chat_id,
     ) {

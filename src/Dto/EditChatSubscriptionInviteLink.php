@@ -12,10 +12,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotDto;
 final class EditChatSubscriptionInviteLink implements TelegramBotDto
 {
     public function __construct(
-        /**
-         * Unique identifier for the target chat or username of the target channel (in the format
-         * <code>@channelusername</code>)
-         */
+        /** Unique identifier for the target chat or username of the target channel in the format <code>@username</code> */
         public int|string $chat_id,
         /** The invite link to edit */
         public string $invite_link,

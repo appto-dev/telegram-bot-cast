@@ -10,7 +10,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class Venue implements TelegramBotData
 {
     public function __construct(
-        /** Venue location. Can't be a live location */
+        /** Venue location. Can't be a live location. */
         public Location $location,
         /** Name of the venue */
         public string $title,

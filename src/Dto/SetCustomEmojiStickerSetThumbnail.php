@@ -14,7 +14,7 @@ final class SetCustomEmojiStickerSetThumbnail implements TelegramBotDto
         public string $name,
         /**
          * Custom emoji identifier of a sticker from the sticker set; pass an empty string to drop the thumbnail and use
-         * the first sticker as the thumbnail.
+         * the first sticker as the thumbnail
          */
         public ?string $custom_emoji_id,
     ) {

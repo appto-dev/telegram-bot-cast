@@ -14,8 +14,8 @@ final class RestrictChatMember implements TelegramBotDto
 {
     public function __construct(
         /**
-         * Unique identifier for the target chat or username of the target supergroup (in the format
-         * <code>@supergroupusername</code>)
+         * Unique identifier for the target chat or username of the target supergroup in the format
+         * <code>@username</code>
          */
         public int|string $chat_id,
         /** Unique identifier of the target user */
@@ -32,7 +32,7 @@ final class RestrictChatMember implements TelegramBotDto
         public ?bool $use_independent_chat_permissions,
         /**
          * Date when restrictions will be lifted for the user; Unix time. If user is restricted for more than 366 days or
-         * less than 30 seconds from the current time, they are considered to be restricted forever
+         * less than 30 seconds from the current time, they are considered to be restricted forever.
          */
         public ?int $until_date,
     ) {

@@ -17,11 +17,11 @@ final class GetGameHighScores implements TelegramBotDto
     public function __construct(
         /** Target user id */
         public int $user_id,
-        /** Required if <em>inline_message_id</em> is not specified. Unique identifier for the target chat */
+        /** Required if <em>inline_message_id</em> is not specified. Unique identifier for the target chat. */
         public ?int $chat_id,
-        /** Required if <em>inline_message_id</em> is not specified. Identifier of the sent message */
+        /** Required if <em>inline_message_id</em> is not specified. Identifier of the sent message. */
         public ?int $message_id,
-        /** Required if <em>chat_id</em> and <em>message_id</em> are not specified. Identifier of the inline message */
+        /** Required if <em>chat_id</em> and <em>message_id</em> are not specified. Identifier of the inline message. */
         public ?string $inline_message_id,
     ) {
     }

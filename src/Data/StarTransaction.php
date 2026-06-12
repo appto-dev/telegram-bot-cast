@@ -27,12 +27,12 @@ final class StarTransaction implements TelegramBotData
         public int $date,
         /**
          * Source of an incoming transaction (e.g., a user purchasing goods or services, Fragment refunding a failed
-         * withdrawal). Only for incoming transactions
+         * withdrawal). Only for incoming transactions.
          */
         public ?TransactionPartner $source,
         /**
          * Receiver of an outgoing transaction (e.g., a user for a purchase refund, Fragment for a withdrawal). Only for
-         * outgoing transactions
+         * outgoing transactions.
          */
         public ?TransactionPartner $receiver,
     ) {
