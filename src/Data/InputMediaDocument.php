@@ -3,12 +3,13 @@
 namespace Appto\TelegramBot\Data;
 
 use Appto\TelegramBot\Interfaces\InputMedia;
+use Appto\TelegramBot\Interfaces\InputPollMedia;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
  * Represents a general file to be sent.
  */
-final class InputMediaDocument implements TelegramBotData, InputMedia
+final class InputMediaDocument implements TelegramBotData, InputPollMedia, InputMedia
 {
     public function __construct(
         /** Type of the result, must be document */

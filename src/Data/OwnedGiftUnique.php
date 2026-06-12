@@ -32,7 +32,7 @@ final class OwnedGiftUnique implements TelegramBotData, OwnedGift
         public ?int $transfer_star_count,
         /**
          * Point in time (Unix timestamp) when the gift can be transferred. If it is in the past, then the gift can be
-         * transferred now
+         * transferred now.
          */
         public ?int $next_transfer_date,
     ) {

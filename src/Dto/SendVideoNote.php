@@ -19,8 +19,8 @@ final class SendVideoNote implements TelegramBotDto
         /** Unique identifier of the business connection on behalf of which the message will be sent */
         public ?string $business_connection_id,
         /**
-         * Unique identifier for the target chat or username of the target channel (in the format
-         * <code>@channelusername</code>)
+         * Unique identifier for the target chat or username of the target bot, supergroup or channel in the format
+         * <code>@username</code>
          */
         public int|string $chat_id,
         /**
@@ -36,7 +36,7 @@ final class SendVideoNote implements TelegramBotDto
         /**
          * Video note to send. Pass a file_id as String to send a video note that exists on the Telegram servers
          * (recommended) or upload a new video using multipart/form-data. <a href="#sending-files">More information on
-         * Sending Files </a>. Sending video notes by a URL is currently unsupported
+         * Sending Files </a>. Sending video notes by a URL is currently unsupported.
          */
         public InputFile|string $video_note,
         /** Duration of sent video in seconds */
@@ -63,7 +63,7 @@ final class SendVideoNote implements TelegramBotDto
          * Pass <em>True</em> to allow up to 1000 messages per second, ignoring <a
          * href="https://core.telegram.org/bots/faq#how-can-i-message-all-of-my-bot-39s-subscribers-at-once">broadcasting
          * limits</a> for a fee of 0.1 Telegram Stars per message. The relevant Stars will be withdrawn from the bot's
-         * balance
+         * balance.
          */
         public ?bool $allow_paid_broadcast,
         /** Unique identifier of the message effect to be added to the message; for private chats only */
@@ -79,7 +79,7 @@ final class SendVideoNote implements TelegramBotDto
         /**
          * Additional interface options. A JSON-serialized object for an <a href="/bots/features#inline-keyboards">inline
          * keyboard</a>, <a href="/bots/features#keyboards">custom reply keyboard</a>, instructions to remove a reply
-         * keyboard or to force a reply from the user
+         * keyboard or to force a reply from the user.
          */
         public ?ReplyMarkup $reply_markup,
     ) {

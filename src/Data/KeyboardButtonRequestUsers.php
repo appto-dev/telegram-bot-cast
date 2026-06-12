@@ -14,7 +14,7 @@ final class KeyboardButtonRequestUsers implements TelegramBotData
     public function __construct(
         /**
          * Signed 32-bit identifier of the request that will be received back in the UsersShared object. Must be unique
-         * within the message
+         * within the message.
          */
         public int $request_id,
         /**

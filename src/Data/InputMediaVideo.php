@@ -3,12 +3,14 @@
 namespace Appto\TelegramBot\Data;
 
 use Appto\TelegramBot\Interfaces\InputMedia;
+use Appto\TelegramBot\Interfaces\InputPollMedia;
+use Appto\TelegramBot\Interfaces\InputPollOptionMedia;
 use Appto\TelegramBot\Interfaces\TelegramBotData;
 
 /**
  * Represents a video to be sent.
  */
-final class InputMediaVideo implements TelegramBotData, InputMedia
+final class InputMediaVideo implements TelegramBotData, InputPollMedia, InputPollOptionMedia, InputMedia
 {
     public function __construct(
         /** Type of the result, must be video */

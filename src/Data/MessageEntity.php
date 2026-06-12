@@ -17,7 +17,7 @@ final class MessageEntity implements TelegramBotData
          * "underline" (underlined text), "strikethrough" (strikethrough text), "spoiler" (spoiler message), "blockquote"
          * (block quotation), "expandable_blockquote" (collapsed-by-default block quotation), "code" (monowidth string),
          * "pre" (monowidth block), "text_link" (for clickable text URLs), "text_mention" (for users without usernames),
-         * "custom_emoji" (for inline custom emoji stickers), or "date_time" (for formatted date and time)
+         * "custom_emoji" (for inline custom emoji stickers), or "date_time" (for formatted date and time).
          */
         public string $type,
         /** Offset in UTF-16 code units to the start of the entity */
@@ -32,7 +32,7 @@ final class MessageEntity implements TelegramBotData
         public ?string $language,
         /**
          * For "custom_emoji" only, unique identifier of the custom emoji. Use getCustomEmojiStickers to get full
-         * information about the sticker
+         * information about the sticker.
          */
         public ?string $custom_emoji_id,
         /** For "date_time" only, the Unix time associated with the entity */

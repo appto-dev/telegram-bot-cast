@@ -15,7 +15,7 @@ final class UniqueGiftInfo implements TelegramBotData
         /**
          * Origin of the gift. Currently, either "upgrade" for gifts upgraded from regular gifts, "transfer" for gifts
          * transferred from other users or channels, "resale" for gifts bought from other users, "gifted_upgrade" for
-         * upgrades purchased after the gift was sent, or "offer" for gifts bought or sold through gift purchase offers
+         * upgrades purchased after the gift was sent, or "offer" for gifts bought or sold through gift purchase offers.
          */
         public string $origin,
         /**
@@ -34,7 +34,7 @@ final class UniqueGiftInfo implements TelegramBotData
         public ?int $transfer_star_count,
         /**
          * Point in time (Unix timestamp) when the gift can be transferred. If it is in the past, then the gift can be
-         * transferred now
+         * transferred now.
          */
         public ?int $next_transfer_date,
     ) {

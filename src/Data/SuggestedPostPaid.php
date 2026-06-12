@@ -15,7 +15,7 @@ final class SuggestedPostPaid implements TelegramBotData
          * reply_to_message field even if it itself is a reply.
          */
         public ?Message $suggested_post_message,
-        /** Currency in which the payment was made. Currently, one of "XTR" for Telegram Stars or "TON" for toncoins */
+        /** Currency in which the payment was made. Currently, one of "XTR" for Telegram Stars or "TON" for toncoins. */
         public string $currency,
         /** The amount of the currency that was received by the channel in nanotoncoins; for payments in toncoins only */
         public ?int $amount,

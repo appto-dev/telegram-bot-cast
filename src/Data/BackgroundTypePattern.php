@@ -23,7 +23,7 @@ final class BackgroundTypePattern implements TelegramBotData, BackgroundType
         public int $intensity,
         /**
          * True, if the background fill must be applied only to the pattern itself. All other pixels are black in this
-         * case. For dark themes only
+         * case. For dark themes only.
          */
         public ?true $is_inverted,
         /** True, if the background moves slightly when the device is tilted */

@@ -12,10 +12,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotDto;
 final class PromoteChatMember implements TelegramBotDto
 {
     public function __construct(
-        /**
-         * Unique identifier for the target chat or username of the target channel (in the format
-         * <code>@channelusername</code>)
-         */
+        /** Unique identifier for the target chat or username of the target channel in the format <code>@username</code> */
         public int|string $chat_id,
         /** Unique identifier of the target user */
         public int $user_id,
@@ -33,7 +30,7 @@ final class PromoteChatMember implements TelegramBotDto
         public ?bool $can_manage_video_chats,
         /**
          * Pass <em>True</em> if the administrator can restrict, ban or unban chat members, or access supergroup
-         * statistics. For backward compatibility, defaults to <em>True</em> for promotions of channel administrators
+         * statistics. For backward compatibility, defaults to <em>True</em> for promotions of channel administrators.
          */
         public ?bool $can_restrict_members,
         /**

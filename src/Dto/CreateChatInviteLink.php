@@ -13,10 +13,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotDto;
 final class CreateChatInviteLink implements TelegramBotDto
 {
     public function __construct(
-        /**
-         * Unique identifier for the target chat or username of the target channel (in the format
-         * <code>@channelusername</code>)
-         */
+        /** Unique identifier for the target chat or username of the target channel in the format <code>@username</code> */
         public int|string $chat_id,
         /** Invite link name; 0-32 characters */
         public ?string $name,
@@ -29,7 +26,7 @@ final class CreateChatInviteLink implements TelegramBotDto
         public ?int $member_limit,
         /**
          * <em>True</em>, if users joining the chat via the link need to be approved by chat administrators. If
-         * <em>True</em>, <em>member_limit</em> can't be specified
+         * <em>True</em>, <em>member_limit</em> can't be specified.
          */
         public ?bool $creates_join_request,
     ) {

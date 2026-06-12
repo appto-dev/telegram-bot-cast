@@ -19,8 +19,8 @@ final class InputLocationMessageContent implements TelegramBotData, InputMessage
         /** The radius of uncertainty for the location, measured in meters; 0-1500 */
         public ?float $horizontal_accuracy,
         /**
-         * Period in seconds during which the location can be updated, should be between 60 and 86400, or 0x7FFFFFFF for
-         * live locations that can be edited indefinitely.
+         * Period in seconds during which the location can be updated, must be between 60 and 86400, or 0x7FFFFFFF for
+         * live locations that can be edited indefinitely
          */
         public ?int $live_period,
         /**
