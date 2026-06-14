@@ -12,7 +12,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class InputMediaLocation implements TelegramBotData, InputPollMedia, InputPollOptionMedia
 {
     public function __construct(
-        /** Type of the result, must be location */
+        /** Type of the media, must be location */
         public string $type,
         /** Latitude of the location */
         public float $latitude,

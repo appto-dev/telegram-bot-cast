@@ -12,7 +12,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class InputMediaDocument implements TelegramBotData, InputPollMedia, InputMedia
 {
     public function __construct(
-        /** Type of the result, must be document */
+        /** Type of the media, must be document */
         public string $type,
         /**
          * File to send. Pass a file_id to send a file that exists on the Telegram servers (recommended), pass an HTTP

@@ -13,7 +13,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class InputMediaLivePhoto implements TelegramBotData, InputPollMedia, InputPollOptionMedia, InputMedia
 {
     public function __construct(
-        /** Type of the result, must be live_photo */
+        /** Type of the media, must be live_photo */
         public string $type,
         /**
          * Video of the live photo to send. Pass a file_id to send a file that exists on the Telegram servers

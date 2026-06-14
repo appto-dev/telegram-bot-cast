@@ -11,7 +11,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class InputMediaLink implements TelegramBotData, InputPollOptionMedia
 {
     public function __construct(
-        /** Type of the result, must be link */
+        /** Type of the media, must be link */
         public string $type,
         /** HTTP URL of the link */
         public string $url,

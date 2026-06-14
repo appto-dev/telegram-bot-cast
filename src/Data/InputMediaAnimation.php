@@ -13,7 +13,7 @@ use Appto\TelegramBot\Interfaces\TelegramBotData;
 final class InputMediaAnimation implements TelegramBotData, InputPollMedia, InputPollOptionMedia, InputMedia
 {
     public function __construct(
-        /** Type of the result, must be animation */
+        /** Type of the media, must be animation */
         public string $type,
         /**
          * File to send. Pass a file_id to send a file that exists on the Telegram servers (recommended), pass an HTTP
